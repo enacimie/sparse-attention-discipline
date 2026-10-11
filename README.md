@@ -106,6 +106,16 @@ including the Wilson intervals, the paired effect sizes and the exact McNemar te
   `flash-linear-attention` and `mamba_ssm` could not be installed there, so those models fell back to
   reference PyTorch implementations. Fidelity results are unaffected; timings on that platform are not
   comparable to the others.
+- **`scripts/` holds more drivers than the paper reports.** The `qwen38` family and a handful of early
+  probes (`run_baseline.py`, `run_needle.py`, `run_retrieval.py`, `run_retrieval_rigorous.py`,
+  `run_local_window.py`, `run_combined.py`, `run_formatfree_probe.py`, `smoke_new_methods.py`,
+  `summarize.py`) belong to exploratory work whose measurements are not deposited here, and no number
+  in the paper is drawn from them. They are kept because they are part of the codebase as it stood.
+  `MANIFEST.md` states exactly which script produced which deposited file.
+- **One deposited file contains a partial pass.** `results/needle_diag.jsonl` holds two appended runs
+  of its driver, and the first left `recall: null` in 54 of its 108 rows. Filter on
+  `recall is not null` before aggregating: the complete 54 rows are the `n=18` per method that
+  Table 14 reports. `MANIFEST.md` gives the detail.
 
 ## Licensing
 

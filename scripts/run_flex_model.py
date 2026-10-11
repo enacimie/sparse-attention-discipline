@@ -8,7 +8,7 @@ Methods compared at matched budget:
   - local_global_topk (window=64, n_global=4, topk=32)
   - uniform_random_m  (budget = topk_budget)  [the control]
 
-Usage (ULL / Kaggle):
+Usage (remote host / Kaggle):
   python scripts/run_flex_model.py --model qwen3.5-4b-base --contexts 1024 2048 --block-size 128
 """
 import argparse

@@ -1,5 +1,5 @@
 #!/bin/bash
-# Reviewer round-7 runs (LLM reviews #4-#6) on ULL: needle statistical power
+# Reviewer round-7 runs (LLM reviews #4-#6) on the remote host: needle statistical power
 # (n=108 probes at the working budget) and the dense-posterior oracle top-k
 # upper bound (fidelity + small-n needle).
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True

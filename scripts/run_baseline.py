@@ -6,7 +6,7 @@ Measures for a given model and a list of context lengths:
 
 Results are appended to results/baseline.jsonl. Greedy decoding, fixed seed.
 
-Usage (on the remote ULL machine):
+Usage (on the remote host):
   source ~/activate_mlattention.sh
   python scripts/run_baseline.py --model lfm2.5-350m --contexts 512 1024
 """

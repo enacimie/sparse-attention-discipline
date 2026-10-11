@@ -1,5 +1,5 @@
 #!/bin/bash
-# Reviewer round-2 runs on ULL: CI repeats, needle diagnosis, multi-fact recall.
+# Reviewer round-2 runs on the remote host: CI repeats, needle diagnosis, multi-fact recall.
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 source ~/activate_mlattention.sh
 cd ~/mlattention

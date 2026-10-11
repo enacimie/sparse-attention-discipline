@@ -2,7 +2,7 @@
 """Poll HuggingFace for new Qwen3.8 models (esp. a dense ~27B).
 
 Runs forever, writes a heartbeat + alerts to stdout, and appends any NEW
-model to results/QWEN38_NEW.flag. Designed to run under nohup on the ULL
+model to results/QWEN38_NEW.flag. Designed to run under nohup on the remote
 machine so it keeps watching even if the laptop is switched off.
 
 Baseline (already published at setup time, 2026-08-12):
