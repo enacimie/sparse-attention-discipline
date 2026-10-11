@@ -51,9 +51,10 @@ results/figs/            the four figures, regenerable with scripts/plot_paper_f
 MANIFEST.md              table and figure -> data file -> script, with the evidence level of each row
 environment_manifest.json  the four platforms, their exact software stacks, and what each produced
 requirements.txt         the reference-host stack; per-platform versions are in the manifest
-LICENSE                  GNU GPL version 3, covering src/, scripts/ and analysis/
+LICENSE                  GNU GPL version 3, verbatim, covering src/, scripts/ and analysis/
 LICENSE-data             CC-BY-SA-4.0, covering results/
-CITATION.cff
+NOTICE                   copyright notice and the statement of the dual licensing
+CITATION.cff             citation metadata for this release
 ```
 
 Each row of each JSONL file carries at least the model, the method, the task, the context, the seed

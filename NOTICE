@@ -1,0 +1,14 @@
+The software in src/, scripts/ and analysis/ of this repository is licensed under the GNU General
+Public License version 3; the full text is in LICENSE.
+
+Copyright (C) 2026 Eduardo Nacimiento-Garcia and Carina S. Gonzalez-Gonzalez
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU
+General Public License as published by the Free Software Foundation, version 3 of the License.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without
+even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General
+Public License in LICENSE for more details.
+
+The machine-readable measurements under results/ are licensed separately, under the Creative Commons
+Attribution-ShareAlike 4.0 International licence; see LICENSE-data.
