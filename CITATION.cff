@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use these artifacts or this software, please cite the paper below."
+type: dataset
+title: "The Discipline of Sparse Attention: budget-matched validation artifacts and code (350M-27B)"
+version: 2.0.0
+date-released: "2026-10-11"
+license: GPL-3.0-only
+doi: 10.5281/zenodo.22229672
+repository-code: "https://zenodo.org/records/22229672"
+keywords:
+  - sparse attention
+  - KV cache
+  - hybrid transformers
+  - long context
+  - efficient inference
+  - retrieval
+  - reproducibility
+authors:
+  - family-names: "Nacimiento-Garcia"
+    given-names: "Eduardo"
+    orcid: "https://orcid.org/0000-0002-4075-0944"
+    affiliation: "University of La Laguna"
+  - family-names: "Gonzalez-Gonzalez"
+    given-names: "Carina S."
+    orcid: "https://orcid.org/0000-0001-5939-9544"
+    affiliation: "University of La Laguna"
+preferred-citation:
+  type: article
+  title: "The Discipline of Sparse Attention: A Budget-Matched Validation from 350M to 27B"
+  authors:
+    - family-names: "Nacimiento-Garcia"
+      given-names: "Eduardo"
+    - family-names: "Gonzalez-Gonzalez"
+      given-names: "Carina S."
+  journal: "Neural Computing and Applications"
+  year: 2026
+  notes: "Under review (major revision)"

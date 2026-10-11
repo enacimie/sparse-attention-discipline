@@ -1,0 +1,5 @@
+{"experiment": "smollm_fidelity", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "lg_topk", "cos_mean": 0.9581, "cos_std": 0.006158, "n": 25}
+{"experiment": "smollm_fidelity", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "lg_randtopk", "cos_mean": 0.920155, "cos_std": 0.056804, "n": 25}
+{"experiment": "smollm_fidelity", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "lg_topk", "cos_mean": 0.9581, "cos_std": 0.006158, "n": 25, "pair_ratio": 0.0827}
+{"experiment": "smollm_fidelity", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "lg_randtopk", "cos_mean": 0.920155, "cos_std": 0.056804, "n": 25, "pair_ratio": 0.0827}
+{"experiment": "smollm_fidelity", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "uniform_random", "cos_mean": 0.416262, "cos_std": 0.045107, "n": 25, "pair_ratio": 0.0821}

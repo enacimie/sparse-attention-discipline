@@ -1,0 +1,60 @@
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "lg_topk", "seed": 42, "cos_list": [0.96677], "pair_ratio": 0.0819, "n_samples": 1}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "lg_topk", "seed": 43, "cos_list": [0.95494, 0.95447, 0.9655, 0.95703, 0.94992], "pair_ratio": 0.0819, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "lg_topk", "seed": 44, "cos_list": [0.95447, 0.9655, 0.95703, 0.94992, 0.96719], "pair_ratio": 0.0819, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "lg_topk", "seed": 45, "cos_list": [0.9655, 0.95703, 0.94992, 0.96719], "pair_ratio": 0.0819, "n_samples": 4}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "lg_topk", "seed": 46, "cos_list": [0.95703, 0.94992, 0.96719], "pair_ratio": 0.0819, "n_samples": 3}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "lg_topk", "seed": 47, "cos_list": [0.94992, 0.96719], "pair_ratio": 0.0819, "n_samples": 2}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "lg_topk", "seed": 48, "cos_list": [0.96719], "pair_ratio": 0.0819, "n_samples": 1}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "lg_topk", "seed": 49, "cos_list": [0.95474, 0.95457, 0.96551, 0.95665, 0.95015], "pair_ratio": 0.0819, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "lg_topk", "seed": 50, "cos_list": [0.95457, 0.96551, 0.95665, 0.95015, 0.96676], "pair_ratio": 0.0819, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "lg_topk", "seed": 51, "cos_list": [0.96551, 0.95665, 0.95015, 0.96676], "pair_ratio": 0.0819, "n_samples": 4}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "lg_topk", "seed": 52, "cos_list": [0.95665, 0.95015, 0.96676], "pair_ratio": 0.0819, "n_samples": 3}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "lg_topk", "seed": 53, "cos_list": [0.95015, 0.96676], "pair_ratio": 0.0819, "n_samples": 2}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "lg_topk", "seed": 54, "cos_list": [0.96676], "pair_ratio": 0.0819, "n_samples": 1}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "lg_topk", "seed": 55, "cos_list": [0.95599, 0.95465, 0.96562, 0.9559, 0.95025], "pair_ratio": 0.0819, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "lg_topk", "seed": 56, "cos_list": [0.95465, 0.96562, 0.9559, 0.95025, 0.96663], "pair_ratio": 0.0819, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "lg_topk", "seed": 57, "cos_list": [0.96562, 0.9559, 0.95025, 0.96663], "pair_ratio": 0.0819, "n_samples": 4}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "lg_topk", "seed": 58, "cos_list": [0.9559, 0.95025, 0.96663], "pair_ratio": 0.0819, "n_samples": 3}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "lg_topk", "seed": 59, "cos_list": [0.95025, 0.96663], "pair_ratio": 0.0819, "n_samples": 2}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "lg_topk", "seed": 60, "cos_list": [0.96663], "pair_ratio": 0.0819, "n_samples": 1}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "lg_topk", "seed": 61, "cos_list": [0.95692, 0.95541, 0.96479, 0.95537, 0.95092], "pair_ratio": 0.0819, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "lg_randtopk", "seed": 42, "cos_list": [0.95288], "pair_ratio": 0.0819, "n_samples": 1}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "lg_randtopk", "seed": 43, "cos_list": [0.81401, 0.94247, 0.95315, 0.95043, 0.93996], "pair_ratio": 0.0819, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "lg_randtopk", "seed": 44, "cos_list": [0.94413, 0.95502, 0.95143, 0.93602, 0.95409], "pair_ratio": 0.0819, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "lg_randtopk", "seed": 45, "cos_list": [0.95344, 0.94966, 0.93921, 0.95231], "pair_ratio": 0.0819, "n_samples": 4}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "lg_randtopk", "seed": 46, "cos_list": [0.94831, 0.93857, 0.952], "pair_ratio": 0.0819, "n_samples": 3}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "lg_randtopk", "seed": 47, "cos_list": [0.93791, 0.95488], "pair_ratio": 0.0819, "n_samples": 2}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "lg_randtopk", "seed": 48, "cos_list": [0.95231], "pair_ratio": 0.0819, "n_samples": 1}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "lg_randtopk", "seed": 49, "cos_list": [0.82882, 0.78508, 0.95415, 0.94951, 0.93937], "pair_ratio": 0.0819, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "lg_randtopk", "seed": 50, "cos_list": [0.78067, 0.9537, 0.94811, 0.93734, 0.9519], "pair_ratio": 0.0819, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "lg_randtopk", "seed": 51, "cos_list": [0.9536, 0.94782, 0.93895, 0.9519], "pair_ratio": 0.0819, "n_samples": 4}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "lg_randtopk", "seed": 52, "cos_list": [0.94816, 0.93775, 0.95318], "pair_ratio": 0.0819, "n_samples": 3}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "lg_randtopk", "seed": 53, "cos_list": [0.93912, 0.95265], "pair_ratio": 0.0819, "n_samples": 2}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "lg_randtopk", "seed": 54, "cos_list": [0.95129], "pair_ratio": 0.0819, "n_samples": 1}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "lg_randtopk", "seed": 55, "cos_list": [0.8184, 0.93881, 0.95435, 0.84071, 0.93988], "pair_ratio": 0.0819, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "lg_randtopk", "seed": 56, "cos_list": [0.93866, 0.95377, 0.86821, 0.93753, 0.95244], "pair_ratio": 0.0819, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "lg_randtopk", "seed": 57, "cos_list": [0.95293, 0.85951, 0.93941, 0.95153], "pair_ratio": 0.0819, "n_samples": 4}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "lg_randtopk", "seed": 58, "cos_list": [0.85325, 0.93814, 0.95163], "pair_ratio": 0.0819, "n_samples": 3}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "lg_randtopk", "seed": 59, "cos_list": [0.93838, 0.95084], "pair_ratio": 0.0819, "n_samples": 2}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "lg_randtopk", "seed": 60, "cos_list": [0.95229], "pair_ratio": 0.0819, "n_samples": 1}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "lg_randtopk", "seed": 61, "cos_list": [0.94824, 0.94359, 0.9535, 0.94501, 0.93855], "pair_ratio": 0.0819, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "uniform_random", "seed": 42, "cos_list": [0.43159], "pair_ratio": 0.0811, "n_samples": 1}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "uniform_random", "seed": 43, "cos_list": [0.45777, 0.3935, 0.45264, 0.34823, 0.35152], "pair_ratio": 0.0811, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "uniform_random", "seed": 44, "cos_list": [0.38446, 0.46991, 0.36927, 0.38562, 0.46417], "pair_ratio": 0.0811, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "uniform_random", "seed": 45, "cos_list": [0.44775, 0.35331, 0.37331, 0.495], "pair_ratio": 0.0811, "n_samples": 4}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "uniform_random", "seed": 46, "cos_list": [0.35942, 0.38178, 0.48013], "pair_ratio": 0.0811, "n_samples": 3}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "uniform_random", "seed": 47, "cos_list": [0.37256, 0.49386], "pair_ratio": 0.0811, "n_samples": 2}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "uniform_random", "seed": 48, "cos_list": [0.47924], "pair_ratio": 0.0811, "n_samples": 1}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "uniform_random", "seed": 49, "cos_list": [0.45087, 0.37291, 0.46396, 0.35672, 0.36683], "pair_ratio": 0.0811, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "uniform_random", "seed": 50, "cos_list": [0.38959, 0.47493, 0.36312, 0.37087, 0.47691], "pair_ratio": 0.0811, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "uniform_random", "seed": 51, "cos_list": [0.45746, 0.36714, 0.37784, 0.47639], "pair_ratio": 0.0811, "n_samples": 4}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "uniform_random", "seed": 52, "cos_list": [0.3562, 0.36139, 0.4887], "pair_ratio": 0.0811, "n_samples": 3}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "uniform_random", "seed": 53, "cos_list": [0.38517, 0.47276], "pair_ratio": 0.0811, "n_samples": 2}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "uniform_random", "seed": 54, "cos_list": [0.4734], "pair_ratio": 0.0811, "n_samples": 1}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "uniform_random", "seed": 55, "cos_list": [0.47487, 0.41643, 0.47791, 0.36327, 0.36597], "pair_ratio": 0.0811, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "uniform_random", "seed": 56, "cos_list": [0.40117, 0.45496, 0.36846, 0.36419, 0.44828], "pair_ratio": 0.0811, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "uniform_random", "seed": 57, "cos_list": [0.44195, 0.36219, 0.37741, 0.47518], "pair_ratio": 0.0811, "n_samples": 4}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "uniform_random", "seed": 58, "cos_list": [0.35832, 0.36629, 0.45479], "pair_ratio": 0.0811, "n_samples": 3}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "uniform_random", "seed": 59, "cos_list": [0.37958, 0.4514], "pair_ratio": 0.0811, "n_samples": 2}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "uniform_random", "seed": 60, "cos_list": [0.48914], "pair_ratio": 0.0811, "n_samples": 1}
+{"experiment": "ci_repeat", "model": "HuggingFaceTB/SmolLM2-1.7B", "context": 2048, "method": "uniform_random", "seed": 61, "cos_list": [0.47492, 0.37813, 0.45529, 0.34054, 0.35567], "pair_ratio": 0.0811, "n_samples": 5}

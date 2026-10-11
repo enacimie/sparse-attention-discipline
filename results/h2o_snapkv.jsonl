@@ -1,0 +1,15 @@
+{"experiment": "h2o_snapkv", "method": "dense", "model": "Qwen/Qwen3.5-0.8B", "context": 2048, "keep": 128, "n_sink": 4, "needle_recall": 1.0, "kv_cache_mb": 24.18}
+{"experiment": "h2o_snapkv", "method": "recency+sink", "model": "Qwen/Qwen3.5-0.8B", "context": 2048, "keep": 128, "n_sink": 4, "needle_recall": 0.0, "kv_cache_mb": 1.55}
+{"experiment": "h2o_snapkv", "method": "knorm+sink", "model": "Qwen/Qwen3.5-0.8B", "context": 2048, "keep": 128, "n_sink": 4, "needle_recall": 0.0, "kv_cache_mb": 1.55}
+{"experiment": "h2o_snapkv", "method": "h2o", "model": "Qwen/Qwen3.5-0.8B", "context": 2048, "keep": 128, "n_sink": 4, "needle_recall": 1.0, "kv_cache_mb": 1.5}
+{"experiment": "h2o_snapkv", "method": "snapkv", "model": "Qwen/Qwen3.5-0.8B", "context": 2048, "keep": 128, "n_sink": 4, "needle_recall": 0.0, "kv_cache_mb": 1.69}
+{"experiment": "h2o_snapkv", "method": "dense", "model": "Qwen/Qwen3.5-0.8B", "context": 2048, "keep": 128, "n_sink": 4, "needle_recall": 1.0, "kv_cache_mb": 24.27}
+{"experiment": "h2o_snapkv", "method": "recency+sink", "model": "Qwen/Qwen3.5-0.8B", "context": 2048, "keep": 128, "n_sink": 4, "needle_recall": 0.0, "kv_cache_mb": 1.55}
+{"experiment": "h2o_snapkv", "method": "knorm+sink", "model": "Qwen/Qwen3.5-0.8B", "context": 2048, "keep": 128, "n_sink": 4, "needle_recall": 0.0, "kv_cache_mb": 1.55}
+{"experiment": "h2o_snapkv", "method": "h2o", "model": "Qwen/Qwen3.5-0.8B", "context": 2048, "keep": 128, "n_sink": 4, "needle_recall": 1.0, "kv_cache_mb": 1.54}
+{"experiment": "h2o_snapkv", "method": "snapkv", "model": "Qwen/Qwen3.5-0.8B", "context": 2048, "keep": 128, "n_sink": 4, "needle_recall": 0.0, "kv_cache_mb": 1.78}
+{"experiment": "h2o_snapkv", "method": "dense", "model": "Qwen/Qwen3.5-0.8B", "context": 2048, "keep": 256, "n_sink": 4, "needle_recall": 1.0, "kv_cache_mb": 24.27}
+{"experiment": "h2o_snapkv", "method": "recency+sink", "model": "Qwen/Qwen3.5-0.8B", "context": 2048, "keep": 256, "n_sink": 4, "needle_recall": 0.0, "kv_cache_mb": 3.05}
+{"experiment": "h2o_snapkv", "method": "knorm+sink", "model": "Qwen/Qwen3.5-0.8B", "context": 2048, "keep": 256, "n_sink": 4, "needle_recall": 0.0, "kv_cache_mb": 3.05}
+{"experiment": "h2o_snapkv", "method": "h2o", "model": "Qwen/Qwen3.5-0.8B", "context": 2048, "keep": 256, "n_sink": 4, "needle_recall": 1.0, "kv_cache_mb": 3.04}
+{"experiment": "h2o_snapkv", "method": "snapkv", "model": "Qwen/Qwen3.5-0.8B", "context": 2048, "keep": 256, "n_sink": 4, "needle_recall": 0.222, "kv_cache_mb": 3.28}

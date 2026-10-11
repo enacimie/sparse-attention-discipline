@@ -1,0 +1,8 @@
+{"experiment": "kv_eviction", "policy": "dense", "model": "LiquidAI/LFM2.5-350M-Base", "context": 2048, "keep": -1, "n_sink": 0, "needle_recall": 0.333, "kv_cache_mb": 24.28, "avg_gen_s": 0.317}
+{"experiment": "kv_eviction", "policy": "recency+sink", "model": "LiquidAI/LFM2.5-350M-Base", "context": 2048, "keep": 128, "n_sink": 4, "needle_recall": 0.0, "kv_cache_mb": 1.55, "avg_gen_s": 0.267}
+{"experiment": "kv_eviction", "policy": "recency+sink", "model": "LiquidAI/LFM2.5-350M-Base", "context": 2048, "keep": 256, "n_sink": 4, "needle_recall": 0.0, "kv_cache_mb": 3.05, "avg_gen_s": 0.261}
+{"experiment": "kv_eviction", "policy": "dense", "model": "LiquidAI/LFM2.5-350M-Base", "context": 2048, "keep": -1, "n_sink": 0, "needle_recall": 0.333, "kv_cache_mb": 24.28, "avg_gen_s": 0.319}
+{"experiment": "kv_eviction", "policy": "recency+sink", "model": "LiquidAI/LFM2.5-350M-Base", "context": 2048, "keep": 128, "n_sink": 4, "needle_recall": 0.0, "kv_cache_mb": 1.55, "avg_gen_s": 0.263}
+{"experiment": "kv_eviction", "policy": "knorm+sink", "model": "LiquidAI/LFM2.5-350M-Base", "context": 2048, "keep": 128, "n_sink": 4, "needle_recall": 0.0, "kv_cache_mb": 1.55, "avg_gen_s": 0.305}
+{"experiment": "kv_eviction", "policy": "recency+sink", "model": "LiquidAI/LFM2.5-350M-Base", "context": 2048, "keep": 256, "n_sink": 4, "needle_recall": 0.0, "kv_cache_mb": 3.05, "avg_gen_s": 0.263}
+{"experiment": "kv_eviction", "policy": "knorm+sink", "model": "LiquidAI/LFM2.5-350M-Base", "context": 2048, "keep": 256, "n_sink": 4, "needle_recall": 0.0, "kv_cache_mb": 3.05, "avg_gen_s": 0.296}

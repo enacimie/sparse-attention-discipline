@@ -1,0 +1,20 @@
+{"experiment": "oracle_topk", "model": "Qwen/Qwen3.5-0.8B", "context": 2048, "method": "lg_topk", "seed": 42, "cos_list": [0.99354, 0.99181, 0.99243, 0.99077, 0.99018], "pair_ratio": 0.0844, "n_samples": 5}
+{"experiment": "oracle_topk", "model": "Qwen/Qwen3.5-0.8B", "context": 2048, "method": "lg_topk", "seed": 43, "cos_list": [0.99181, 0.99243, 0.99077, 0.99018, 0.99342], "pair_ratio": 0.0844, "n_samples": 5}
+{"experiment": "oracle_topk", "model": "Qwen/Qwen3.5-0.8B", "context": 2048, "method": "lg_topk", "seed": 44, "cos_list": [0.99243, 0.99077, 0.99018, 0.99342, 0.99384], "pair_ratio": 0.0844, "n_samples": 5}
+{"experiment": "oracle_topk", "model": "Qwen/Qwen3.5-0.8B", "context": 2048, "method": "lg_topk", "seed": 45, "cos_list": [0.99077, 0.99018, 0.99342, 0.99384], "pair_ratio": 0.0844, "n_samples": 4}
+{"experiment": "oracle_topk", "model": "Qwen/Qwen3.5-0.8B", "context": 2048, "method": "lg_topk", "seed": 46, "cos_list": [0.99018, 0.99342, 0.99384], "pair_ratio": 0.0844, "n_samples": 3}
+{"experiment": "oracle_topk", "model": "Qwen/Qwen3.5-0.8B", "context": 2048, "method": "lg_oracle", "seed": 42, "cos_list": [0.99498, 0.99303, 0.99399, 0.99158, 0.99225], "pair_ratio": 0.083, "n_samples": 5}
+{"experiment": "oracle_topk", "model": "Qwen/Qwen3.5-0.8B", "context": 2048, "method": "lg_oracle", "seed": 43, "cos_list": [0.99303, 0.99399, 0.99158, 0.99225, 0.99536], "pair_ratio": 0.083, "n_samples": 5}
+{"experiment": "oracle_topk", "model": "Qwen/Qwen3.5-0.8B", "context": 2048, "method": "lg_oracle", "seed": 44, "cos_list": [0.99399, 0.99158, 0.99225, 0.99536, 0.99479], "pair_ratio": 0.083, "n_samples": 5}
+{"experiment": "oracle_topk", "model": "Qwen/Qwen3.5-0.8B", "context": 2048, "method": "lg_oracle", "seed": 45, "cos_list": [0.99158, 0.99225, 0.99536, 0.99479], "pair_ratio": 0.083, "n_samples": 4}
+{"experiment": "oracle_topk", "model": "Qwen/Qwen3.5-0.8B", "context": 2048, "method": "lg_oracle", "seed": 46, "cos_list": [0.99225, 0.99536, 0.99479], "pair_ratio": 0.083, "n_samples": 3}
+{"experiment": "oracle_topk", "model": "Qwen/Qwen3.5-0.8B", "context": 2048, "method": "lg_voracle", "seed": 42, "cos_list": [0.99502, 0.99304, 0.99402, 0.99164, 0.99233], "pair_ratio": 0.0831, "n_samples": 5}
+{"experiment": "oracle_topk", "model": "Qwen/Qwen3.5-0.8B", "context": 2048, "method": "lg_voracle", "seed": 43, "cos_list": [0.99304, 0.99402, 0.99164, 0.99233, 0.99542], "pair_ratio": 0.0831, "n_samples": 5}
+{"experiment": "oracle_topk", "model": "Qwen/Qwen3.5-0.8B", "context": 2048, "method": "lg_voracle", "seed": 44, "cos_list": [0.99402, 0.99164, 0.99233, 0.99542, 0.99483], "pair_ratio": 0.0831, "n_samples": 5}
+{"experiment": "oracle_topk", "model": "Qwen/Qwen3.5-0.8B", "context": 2048, "method": "lg_voracle", "seed": 45, "cos_list": [0.99164, 0.99233, 0.99542, 0.99483], "pair_ratio": 0.0831, "n_samples": 4}
+{"experiment": "oracle_topk", "model": "Qwen/Qwen3.5-0.8B", "context": 2048, "method": "lg_voracle", "seed": 46, "cos_list": [0.99233, 0.99542, 0.99483], "pair_ratio": 0.0831, "n_samples": 3}
+{"experiment": "oracle_topk", "model": "Qwen/Qwen3.5-0.8B", "context": 2048, "method": "lg_randtopk", "seed": 42, "cos_list": [0.97541, 0.97942, 0.97573, 0.97327, 0.96826], "pair_ratio": 0.0929, "n_samples": 5}
+{"experiment": "oracle_topk", "model": "Qwen/Qwen3.5-0.8B", "context": 2048, "method": "lg_randtopk", "seed": 43, "cos_list": [0.97876, 0.97547, 0.97305, 0.96788, 0.98075], "pair_ratio": 0.0929, "n_samples": 5}
+{"experiment": "oracle_topk", "model": "Qwen/Qwen3.5-0.8B", "context": 2048, "method": "lg_randtopk", "seed": 44, "cos_list": [0.97499, 0.97301, 0.96818, 0.98025, 0.98128], "pair_ratio": 0.0929, "n_samples": 5}
+{"experiment": "oracle_topk", "model": "Qwen/Qwen3.5-0.8B", "context": 2048, "method": "lg_randtopk", "seed": 45, "cos_list": [0.97376, 0.96892, 0.98058, 0.98193], "pair_ratio": 0.0929, "n_samples": 4}
+{"experiment": "oracle_topk", "model": "Qwen/Qwen3.5-0.8B", "context": 2048, "method": "lg_randtopk", "seed": 46, "cos_list": [0.96723, 0.98042, 0.98173], "pair_ratio": 0.0929, "n_samples": 3}

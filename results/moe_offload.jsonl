@@ -1,0 +1,7 @@
+{"experiment": "moe_offload", "part": "smoke", "model": "LiquidAI/LFM2.5-8B-A1B", "context": 1024, "cos": 0.91893}
+{"experiment": "moe_offload", "part": "A_heldout", "method": "local_global_topk", "model": "LiquidAI/LFM2.5-8B-A1B", "context": 1024, "n_samples": 3, "cos_mean": 0.952, "cos_std": 0.0291}
+{"experiment": "moe_offload", "part": "A_heldout", "method": "streamingllm_bm", "model": "LiquidAI/LFM2.5-8B-A1B", "context": 1024, "n_samples": 3, "cos_mean": 0.9365, "cos_std": 0.0338}
+{"experiment": "moe_offload", "part": "A_heldout", "method": "uniform_random_m", "model": "LiquidAI/LFM2.5-8B-A1B", "context": 1024, "n_samples": 3, "cos_mean": 0.9402, "cos_std": 0.0237}
+{"experiment": "moe_offload", "part": "A_heldout", "method": "local_global_topk", "model": "LiquidAI/LFM2.5-8B-A1B", "context": 1024, "n_samples": 10, "cos_mean": 0.9485, "cos_std": 0.0161}
+{"experiment": "moe_offload", "part": "A_heldout", "method": "streamingllm_bm", "model": "LiquidAI/LFM2.5-8B-A1B", "context": 1024, "n_samples": 10, "cos_mean": 0.934, "cos_std": 0.0221}
+{"experiment": "moe_offload", "part": "A_heldout", "method": "uniform_random_m", "model": "LiquidAI/LFM2.5-8B-A1B", "context": 1024, "n_samples": 10, "cos_mean": 0.934, "cos_std": 0.0216}

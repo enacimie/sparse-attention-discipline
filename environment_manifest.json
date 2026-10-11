@@ -1,0 +1,113 @@
+{
+  "_comment": [
+    "Environment manifest for the artifacts in results/.",
+    "Four platforms produced the reported numbers. The 2026 campaigns recorded the platform per row,",
+    "and those records are reproduced verbatim below under 'recorded_per_row'. The two rented campaigns",
+    "and the notebook campaign predate per-row recording and are attributed from the recorded procedure",
+    "that produced them; their evidence source is stated explicitly rather than inferred.",
+    "Wall-clock and peak-VRAM figures are comparable only within a platform, never across platforms."
+  ],
+  "recorded_per_row": [
+    {
+      "gpu": "NVIDIA GeForce RTX 3070",
+      "compute_capability": "8.6",
+      "torch": "2.13.0+cu126",
+      "cuda": "12.6",
+      "python": "3.14.4",
+      "artifacts": {
+        "REV2_decode_throughput.jsonl": 8,
+        "REV2_external_patterns.jsonl": 16,
+        "REV2_flex_granularity.jsonl": 15,
+        "REV2_needle_paired.jsonl": 2,
+        "SMOKE_decode.jsonl": 4,
+        "SMOKE_ext.jsonl": 5
+      },
+      "rows": 50
+    },
+    {
+      "gpu": "NVIDIA GeForce RTX 3070",
+      "compute_capability": "None",
+      "torch": "2.13.0+cu126",
+      "cuda": "None",
+      "python": "None",
+      "artifacts": {
+        "REV2_flex_isolated.jsonl": 12
+      },
+      "rows": 12
+    }
+  ],
+  "platforms": [
+    {
+      "role": "reference host",
+      "gpu": "NVIDIA GeForce RTX 3070",
+      "vram_gb": 8,
+      "compute_capability": "8.6",
+      "torch": "2.13.0+cu126",
+      "cuda": "12.6",
+      "python": "3.14.4",
+      "triton": "3.7.1",
+      "evidence": "recorded per row in the artifact (see recorded_per_row)",
+      "produced": [
+        "0.8B and 2B leaderboards",
+        "repeated fidelity panels (tab:4b)",
+        "both n=40 RULER batteries (tab:ruler, tab:ruler_effect, tab:ruler_tasks)",
+        "block-granularity benchmark (tab:granularity)",
+        "decode throughput (tab:decode)",
+        "published external patterns (tab:external)",
+        "paired-needle re-run"
+      ]
+    },
+    {
+      "role": "notebook tier (Kaggle)",
+      "gpu": "2x NVIDIA Tesla T4",
+      "vram_mib_reported": 15360,
+      "vram_gib_usable": 14.56,
+      "compute_capability": "7.5",
+      "nvidia_driver": "580.178.04",
+      "cuda": "13.0",
+      "torch": "2.10.0+cu128",
+      "transformers": "5.19.0",
+      "bitsandbytes": "0.50.2",
+      "python": "3.12.13",
+      "host_ram_gb": 32.9,
+      "evidence": "results/provenance/notebook_tier_campaign.log (nvidia-smi banner, torch version probe, OOM traceback)",
+      "produced": [
+        "9B ctx-1024 single-run row (tab:9b)",
+        "4B eight-method leaderboard, 24 cells (tab:leaderboard_4b)",
+        "Falcon-H1 1.5B and 3B, 32 cells",
+        "FlexAttention at seq 8192 and 16384"
+      ],
+      "note": "causal_conv1d, flash-linear-attention and mamba_ssm were absent, so hybrid models fell back to reference PyTorch implementations"
+    },
+    {
+      "role": "rented GPU, tier 1",
+      "gpu": "NVIDIA GeForce RTX 3090",
+      "vram_gb": 24,
+      "host_memory_limit_gb": 30,
+      "torch": "2.6.0+cu124",
+      "python": "3.11",
+      "evidence": "recorded procedure for the campaign (predates per-row recording)",
+      "produced": [
+        "9B ctx-2048 fidelity and needle (tab:leaderboard_9b)",
+        "9B ctx-4096 needle (tab:leaderboard_9b)",
+        "27B ctx-2048 fidelity (tab:leaderboard_27b)"
+      ],
+      "note": "the 9B ctx-4096 fidelity measurement exceeds the 30 GB host memory limit and was not produced here"
+    },
+    {
+      "role": "rented GPU, tier 2",
+      "gpu": "NVIDIA A100-SXM4-80GB",
+      "vram_gb": 80,
+      "host_ram_gb": 117,
+      "torch": "2.6.0+cu124",
+      "python": "3.11",
+      "evidence": "recorded procedure for the campaign (predates per-row recording)",
+      "produced": [
+        "9B ctx-4096 fidelity (tab:leaderboard_9b)",
+        "27B ctx-4096 fidelity (tab:leaderboard_27b)"
+      ]
+    }
+  ],
+  "model_identifiers_note": "Model revisions and Hugging Face identifiers are recorded per row in the artifacts that carry them; see the 'model' field of each file.",
+  "artifacts_total_jsonl": 81
+}

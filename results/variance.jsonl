@@ -1,0 +1,3 @@
+{"experiment": "variance", "method": "random_topk_32_32", "model": "LiquidAI/LFM2.5-350M-Base", "context": 2048, "n_seeds": 6, "cosine_mean": 0.8905, "cosine_std": 0.0017, "cosine_min": 0.8877, "cosine_max": 0.8933}
+{"experiment": "variance", "method": "local_global_topk_opt", "model": "LiquidAI/LFM2.5-350M-Base", "context": 2048, "n_seeds": 6, "cosine_mean": 0.9866, "cosine_std": 0.0, "cosine_min": 0.9866, "cosine_max": 0.9866}
+{"experiment": "variance", "method": "lsh", "model": "LiquidAI/LFM2.5-350M-Base", "context": 2048, "n_seeds": 6, "cosine_mean": 0.9634, "cosine_std": 0.0142, "cosine_min": 0.9352, "cosine_max": 0.9755}

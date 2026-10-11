@@ -1,0 +1,88 @@
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-0.6B", "context": 1024, "method": "lg_topk", "seed": 42, "cos_list": [0.98223, 0.97983, 0.97828, 0.97839, 0.97917], "pair_ratio": 0.1592, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-0.6B", "context": 1024, "method": "lg_topk", "seed": 43, "cos_list": [0.97983, 0.97828, 0.97839, 0.97917, 0.977], "pair_ratio": 0.1592, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-0.6B", "context": 1024, "method": "lg_topk", "seed": 44, "cos_list": [0.97828, 0.97839, 0.97917, 0.977, 0.98456], "pair_ratio": 0.1592, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-0.6B", "context": 1024, "method": "lg_topk", "seed": 45, "cos_list": [0.97839, 0.97917, 0.977, 0.98456], "pair_ratio": 0.1592, "n_samples": 4}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-0.6B", "context": 1024, "method": "uniform_random", "seed": 42, "cos_list": [0.56796, 0.58207, 0.54091, 0.5581, 0.56492], "pair_ratio": 0.1533, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-0.6B", "context": 1024, "method": "uniform_random", "seed": 43, "cos_list": [0.58639, 0.54037, 0.58102, 0.56844, 0.5436], "pair_ratio": 0.1533, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-0.6B", "context": 1024, "method": "uniform_random", "seed": 44, "cos_list": [0.52479, 0.56617, 0.57943, 0.52661, 0.56439], "pair_ratio": 0.1533, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-0.6B", "context": 1024, "method": "uniform_random", "seed": 45, "cos_list": [0.57644, 0.57537, 0.53642, 0.57131], "pair_ratio": 0.1533, "n_samples": 4}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3.5-4B-Base", "context": 1024, "method": "lg_topk", "seed": 42, "cos_list": [0.99555], "pair_ratio": 0.161, "n_samples": 1}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-0.6B", "context": 2048, "method": "lg_topk", "seed": 42, "cos_list": [0.97381], "pair_ratio": 0.084, "n_samples": 1}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3.5-4B-Base", "context": 1024, "method": "lg_topk", "seed": 43, "cos_list": [0.99104, 0.99429, 0.99136, 0.99114, 0.99296], "pair_ratio": 0.161, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-0.6B", "context": 2048, "method": "lg_topk", "seed": 43, "cos_list": [0.97041, 0.9659, 0.97037, 0.9685, 0.96741], "pair_ratio": 0.084, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3.5-4B-Base", "context": 1024, "method": "lg_topk", "seed": 44, "cos_list": [0.99429, 0.99136, 0.99114, 0.99296, 0.99491], "pair_ratio": 0.161, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-0.6B", "context": 2048, "method": "lg_topk", "seed": 44, "cos_list": [0.9659, 0.97037, 0.9685, 0.96741, 0.97336], "pair_ratio": 0.084, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3.5-4B-Base", "context": 1024, "method": "lg_topk", "seed": 45, "cos_list": [0.99136, 0.99114, 0.99296, 0.99491], "pair_ratio": 0.161, "n_samples": 4}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3.5-4B-Base", "context": 1024, "method": "uniform_random", "seed": 42, "cos_list": [0.92961], "pair_ratio": 0.1551, "n_samples": 1}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-0.6B", "context": 2048, "method": "lg_topk", "seed": 45, "cos_list": [0.97037, 0.9685, 0.96741, 0.97336], "pair_ratio": 0.084, "n_samples": 4}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-0.6B", "context": 2048, "method": "uniform_random", "seed": 42, "cos_list": [0.5477], "pair_ratio": 0.083, "n_samples": 1}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3.5-4B-Base", "context": 1024, "method": "uniform_random", "seed": 43, "cos_list": [0.93436, 0.92122, 0.93118, 0.92047, 0.90624], "pair_ratio": 0.1551, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-0.6B", "context": 2048, "method": "uniform_random", "seed": 43, "cos_list": [0.55287, 0.50624, 0.54595, 0.5408, 0.51861], "pair_ratio": 0.083, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3.5-4B-Base", "context": 1024, "method": "uniform_random", "seed": 44, "cos_list": [0.93164, 0.92604, 0.92708, 0.90625, 0.93012], "pair_ratio": 0.1551, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-0.6B", "context": 2048, "method": "uniform_random", "seed": 44, "cos_list": [0.50141, 0.54142, 0.53148, 0.53034, 0.54938], "pair_ratio": 0.083, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3.5-4B-Base", "context": 1024, "method": "uniform_random", "seed": 45, "cos_list": [0.92817, 0.92867, 0.90624, 0.93312], "pair_ratio": 0.1551, "n_samples": 4}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-0.6B", "context": 2048, "method": "uniform_random", "seed": 45, "cos_list": [0.54306, 0.53657, 0.52935, 0.548], "pair_ratio": 0.083, "n_samples": 4}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3.5-4B-Base", "context": 2048, "method": "lg_topk", "seed": 42, "cos_list": [0.99075, 0.98759, 0.98914, 0.98519, 0.98688], "pair_ratio": 0.0841, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3.5-4B-Base", "context": 2048, "method": "lg_topk", "seed": 43, "cos_list": [0.98759, 0.98914, 0.98519, 0.98688, 0.98825], "pair_ratio": 0.0841, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3.5-4B-Base", "context": 2048, "method": "lg_topk", "seed": 44, "cos_list": [0.98914, 0.98519, 0.98688, 0.98825, 0.99165], "pair_ratio": 0.0841, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3.5-4B-Base", "context": 2048, "method": "lg_topk", "seed": 45, "cos_list": [0.98519, 0.98688, 0.98825, 0.99165], "pair_ratio": 0.0841, "n_samples": 4}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3.5-4B-Base", "context": 2048, "method": "uniform_random", "seed": 42, "cos_list": [0.86491, 0.86328, 0.8497, 0.84249, 0.84934], "pair_ratio": 0.083, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3.5-4B-Base", "context": 2048, "method": "uniform_random", "seed": 43, "cos_list": [0.85902, 0.85229, 0.84797, 0.84615, 0.84088], "pair_ratio": 0.083, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3.5-4B-Base", "context": 2048, "method": "uniform_random", "seed": 44, "cos_list": [0.85551, 0.83684, 0.84678, 0.84278, 0.85394], "pair_ratio": 0.083, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3.5-4B-Base", "context": 2048, "method": "uniform_random", "seed": 45, "cos_list": [0.84799, 0.84951, 0.8428, 0.85513], "pair_ratio": 0.083, "n_samples": 4}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3.5-4B-Base", "context": 4096, "method": "lg_topk", "seed": 42, "cos_list": [0.98704], "pair_ratio": 0.0433, "n_samples": 1}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3.5-4B-Base", "context": 4096, "method": "lg_topk", "seed": 43, "cos_list": [0.98516, 0.98383, 0.97998, 0.98048, 0.97174], "pair_ratio": 0.0433, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3.5-4B-Base", "context": 4096, "method": "lg_topk", "seed": 44, "cos_list": [0.98383, 0.97998, 0.98048, 0.97174, 0.9867], "pair_ratio": 0.0433, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3.5-4B-Base", "context": 4096, "method": "lg_topk", "seed": 45, "cos_list": [0.97998, 0.98048, 0.97174, 0.9867], "pair_ratio": 0.0433, "n_samples": 4}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3.5-4B-Base", "context": 4096, "method": "uniform_random", "seed": 42, "cos_list": [0.78708], "pair_ratio": 0.0434, "n_samples": 1}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3.5-4B-Base", "context": 4096, "method": "uniform_random", "seed": 43, "cos_list": [0.77856, 0.79751, 0.77825, 0.76973, 0.75761], "pair_ratio": 0.0434, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3.5-4B-Base", "context": 4096, "method": "uniform_random", "seed": 44, "cos_list": [0.78939, 0.77253, 0.7671, 0.74209, 0.77494], "pair_ratio": 0.0434, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3.5-4B-Base", "context": 4096, "method": "uniform_random", "seed": 45, "cos_list": [0.76837, 0.76739, 0.75566, 0.7798], "pair_ratio": 0.0434, "n_samples": 4}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-0.6B", "context": 1024, "method": "lg_topk", "seed": 42, "cos_list": [0.98223, 0.97983, 0.97828, 0.97839, 0.97917], "pair_ratio": 0.1592, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-0.6B", "context": 1024, "method": "lg_topk", "seed": 43, "cos_list": [0.97983, 0.97828, 0.97839, 0.97917, 0.977], "pair_ratio": 0.1592, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-0.6B", "context": 1024, "method": "lg_topk", "seed": 44, "cos_list": [0.97828, 0.97839, 0.97917, 0.977, 0.98456], "pair_ratio": 0.1592, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-0.6B", "context": 1024, "method": "lg_topk", "seed": 45, "cos_list": [0.97839, 0.97917, 0.977, 0.98456], "pair_ratio": 0.1592, "n_samples": 4}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-0.6B", "context": 1024, "method": "uniform_random", "seed": 42, "cos_list": [0.56796, 0.58207, 0.54091, 0.5581, 0.56492], "pair_ratio": 0.1533, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-0.6B", "context": 1024, "method": "uniform_random", "seed": 43, "cos_list": [0.58639, 0.54037, 0.58102, 0.56844, 0.5436], "pair_ratio": 0.1533, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-0.6B", "context": 1024, "method": "uniform_random", "seed": 44, "cos_list": [0.52479, 0.56617, 0.57943, 0.52661, 0.56439], "pair_ratio": 0.1533, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-0.6B", "context": 1024, "method": "uniform_random", "seed": 45, "cos_list": [0.57644, 0.57537, 0.53642, 0.57131], "pair_ratio": 0.1533, "n_samples": 4}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-0.6B", "context": 2048, "method": "lg_topk", "seed": 42, "cos_list": [0.97381], "pair_ratio": 0.084, "n_samples": 1}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-0.6B", "context": 2048, "method": "lg_topk", "seed": 43, "cos_list": [0.97041, 0.9659, 0.97037, 0.9685, 0.96741], "pair_ratio": 0.084, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-0.6B", "context": 2048, "method": "lg_topk", "seed": 44, "cos_list": [0.9659, 0.97037, 0.9685, 0.96741, 0.97336], "pair_ratio": 0.084, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-0.6B", "context": 2048, "method": "lg_topk", "seed": 45, "cos_list": [0.97037, 0.9685, 0.96741, 0.97336], "pair_ratio": 0.084, "n_samples": 4}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-0.6B", "context": 2048, "method": "uniform_random", "seed": 42, "cos_list": [0.5477], "pair_ratio": 0.083, "n_samples": 1}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-0.6B", "context": 2048, "method": "uniform_random", "seed": 43, "cos_list": [0.55287, 0.50624, 0.54595, 0.5408, 0.51861], "pair_ratio": 0.083, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-0.6B", "context": 2048, "method": "uniform_random", "seed": 44, "cos_list": [0.50141, 0.54142, 0.53148, 0.53034, 0.54938], "pair_ratio": 0.083, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-0.6B", "context": 2048, "method": "uniform_random", "seed": 45, "cos_list": [0.54306, 0.53657, 0.52935, 0.548], "pair_ratio": 0.083, "n_samples": 4}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-0.6B", "context": 4096, "method": "lg_topk", "seed": 42, "cos_list": [0.966, 0.96482, 0.95855, 0.96102, 0.95835], "pair_ratio": 0.0432, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-0.6B", "context": 4096, "method": "lg_topk", "seed": 43, "cos_list": [0.96482, 0.95855, 0.96102, 0.95835, 0.94966], "pair_ratio": 0.0432, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-0.6B", "context": 4096, "method": "lg_topk", "seed": 44, "cos_list": [0.95855, 0.96102, 0.95835, 0.94966, 0.96348], "pair_ratio": 0.0432, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-0.6B", "context": 4096, "method": "lg_topk", "seed": 45, "cos_list": [0.96102, 0.95835, 0.94966, 0.96348], "pair_ratio": 0.0432, "n_samples": 4}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-0.6B", "context": 4096, "method": "uniform_random", "seed": 42, "cos_list": [0.49686, 0.54043, 0.49615, 0.51711, 0.50419], "pair_ratio": 0.0434, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-0.6B", "context": 4096, "method": "uniform_random", "seed": 43, "cos_list": [0.54569, 0.49384, 0.51605, 0.50758, 0.51479], "pair_ratio": 0.0434, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-0.6B", "context": 4096, "method": "uniform_random", "seed": 44, "cos_list": [0.49638, 0.51987, 0.50662, 0.51413, 0.52439], "pair_ratio": 0.0434, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-0.6B", "context": 4096, "method": "uniform_random", "seed": 45, "cos_list": [0.51469, 0.50798, 0.51738, 0.52579], "pair_ratio": 0.0434, "n_samples": 4}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-1.7B", "context": 1024, "method": "lg_topk", "seed": 42, "cos_list": [0.96828, 0.96692, 0.97495, 0.97041, 0.95816], "pair_ratio": 0.1588, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-1.7B", "context": 1024, "method": "lg_topk", "seed": 43, "cos_list": [0.96692, 0.97495, 0.97041, 0.95816, 0.96584], "pair_ratio": 0.1588, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-1.7B", "context": 1024, "method": "lg_topk", "seed": 44, "cos_list": [0.97495, 0.97041, 0.95816, 0.96584, 0.97461], "pair_ratio": 0.1588, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-1.7B", "context": 1024, "method": "lg_topk", "seed": 45, "cos_list": [0.97041, 0.95816, 0.96584, 0.97461], "pair_ratio": 0.1588, "n_samples": 4}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-1.7B", "context": 1024, "method": "uniform_random", "seed": 42, "cos_list": [0.30765, 0.32968, 0.22968, 0.27483, 0.27106], "pair_ratio": 0.1533, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-1.7B", "context": 1024, "method": "uniform_random", "seed": 43, "cos_list": [0.31537, 0.24668, 0.30003, 0.28068, 0.29113], "pair_ratio": 0.1533, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-1.7B", "context": 1024, "method": "uniform_random", "seed": 44, "cos_list": [0.22948, 0.26029, 0.26847, 0.24264, 0.26157], "pair_ratio": 0.1533, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-1.7B", "context": 1024, "method": "uniform_random", "seed": 45, "cos_list": [0.26943, 0.26489, 0.2709, 0.30076], "pair_ratio": 0.1533, "n_samples": 4}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-1.7B", "context": 2048, "method": "lg_topk", "seed": 42, "cos_list": [0.95669], "pair_ratio": 0.0833, "n_samples": 1}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-1.7B", "context": 2048, "method": "lg_topk", "seed": 43, "cos_list": [0.95508, 0.95647, 0.96169, 0.94937, 0.94446], "pair_ratio": 0.0833, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-1.7B", "context": 2048, "method": "lg_topk", "seed": 44, "cos_list": [0.95647, 0.96169, 0.94937, 0.94446, 0.95841], "pair_ratio": 0.0833, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-1.7B", "context": 2048, "method": "lg_topk", "seed": 45, "cos_list": [0.96169, 0.94937, 0.94446, 0.95841], "pair_ratio": 0.0833, "n_samples": 4}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-1.7B", "context": 2048, "method": "uniform_random", "seed": 42, "cos_list": [0.24226], "pair_ratio": 0.0821, "n_samples": 1}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-1.7B", "context": 2048, "method": "uniform_random", "seed": 43, "cos_list": [0.22461, 0.17294, 0.18213, 0.18016, 0.16673], "pair_ratio": 0.0821, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-1.7B", "context": 2048, "method": "uniform_random", "seed": 44, "cos_list": [0.17576, 0.18386, 0.17073, 0.17538, 0.23175], "pair_ratio": 0.0821, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-1.7B", "context": 2048, "method": "uniform_random", "seed": 45, "cos_list": [0.17501, 0.1798, 0.18087, 0.21167], "pair_ratio": 0.0821, "n_samples": 4}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-1.7B", "context": 4096, "method": "lg_topk", "seed": 42, "cos_list": [0.94837, 0.94837, 0.95085, 0.94598, 0.93765], "pair_ratio": 0.0431, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-1.7B", "context": 4096, "method": "lg_topk", "seed": 43, "cos_list": [0.94837, 0.95085, 0.94598, 0.93765, 0.85398], "pair_ratio": 0.0431, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-1.7B", "context": 4096, "method": "lg_topk", "seed": 44, "cos_list": [0.95085, 0.94598, 0.93765, 0.85398, 0.94872], "pair_ratio": 0.0431, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-1.7B", "context": 4096, "method": "lg_topk", "seed": 45, "cos_list": [0.94598, 0.93765, 0.85398, 0.94872], "pair_ratio": 0.0431, "n_samples": 4}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-1.7B", "context": 4096, "method": "uniform_random", "seed": 42, "cos_list": [0.19958, 0.18506, 0.13543, 0.14858, 0.1522], "pair_ratio": 0.0429, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-1.7B", "context": 4096, "method": "uniform_random", "seed": 43, "cos_list": [0.18786, 0.1465, 0.14477, 0.15618, 0.20358], "pair_ratio": 0.0429, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-1.7B", "context": 4096, "method": "uniform_random", "seed": 44, "cos_list": [0.14168, 0.14266, 0.1538, 0.20589, 0.1863], "pair_ratio": 0.0429, "n_samples": 5}
+{"experiment": "ci_repeat", "model": "Qwen/Qwen3-1.7B", "context": 4096, "method": "uniform_random", "seed": 45, "cos_list": [0.15158, 0.1617, 0.20908, 0.20989], "pair_ratio": 0.0429, "n_samples": 4}

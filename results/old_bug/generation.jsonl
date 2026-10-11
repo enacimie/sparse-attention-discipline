@@ -1,0 +1,2 @@
+{"experiment": "generation", "model": "Qwen/Qwen3.5-0.8B", "n_prompts": 5, "prompt_len": 512, "gen_len": 128, "method": "local_global_topk", "token_agreement": 0.0359, "ppl_dense_gen": 1.3, "ppl_sparse_gen": 1.93, "per_prompt_ag": [0.0547, 0.0078, 0.0469, 0.0625, 0.0078]}
+{"experiment": "generation", "model": "Qwen/Qwen3.5-0.8B", "n_prompts": 5, "prompt_len": 512, "gen_len": 128, "method": "local_global_topk", "token_agreement": 0.0266, "dense_greedy_self_ag": 1.0, "dense_sample_self_ag": 0.0203, "ppl_dense_gen": 1.19, "ppl_sparse_gen": 1.79}

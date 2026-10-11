@@ -1,0 +1,12 @@
+{"experiment": "retrieval_sparse", "model": "Qwen/Qwen3.5-4B-Base", "context": 2048, "depth": 0.1, "seed": 42, "needle": "1 0 4 3 3", "top_k": 4, "fed_ratio": 0.2588}
+{"experiment": "retrieval_sparse", "model": "Qwen/Qwen3.5-4B-Base", "context": 2048, "depth": 0.1, "seed": 43, "needle": "0 4 2 7 5", "top_k": 4, "fed_ratio": 0.2588}
+{"experiment": "retrieval_sparse", "model": "Qwen/Qwen3.5-4B-Base", "context": 2048, "depth": 0.1, "seed": 44, "needle": "6 8 8 1 2", "top_k": 4, "fed_ratio": 0.2588}
+{"experiment": "retrieval_sparse_summary", "model": "Qwen/Qwen3.5-4B-Base", "context": 2048, "depth": 0.1, "n": 3, "fed_ratio": 0.2588, "bm25_retrieved": 1.0, "dense_full": 1.0, "sparse_full": 1.0, "bm25_dense": 1.0, "bm25_sparse": 1.0}
+{"experiment": "retrieval_sparse", "model": "Qwen/Qwen3.5-4B-Base", "context": 2048, "depth": 0.5, "seed": 42, "needle": "1 0 4 3 3", "top_k": 4, "fed_ratio": 0.2588}
+{"experiment": "retrieval_sparse", "model": "Qwen/Qwen3.5-4B-Base", "context": 2048, "depth": 0.5, "seed": 43, "needle": "0 4 2 7 5", "top_k": 4, "fed_ratio": 0.2588}
+{"experiment": "retrieval_sparse", "model": "Qwen/Qwen3.5-4B-Base", "context": 2048, "depth": 0.5, "seed": 44, "needle": "6 8 8 1 2", "top_k": 4, "fed_ratio": 0.2588}
+{"experiment": "retrieval_sparse_summary", "model": "Qwen/Qwen3.5-4B-Base", "context": 2048, "depth": 0.5, "n": 3, "fed_ratio": 0.2588, "bm25_retrieved": 0.0, "dense_full": 1.0, "sparse_full": 1.0, "bm25_dense": 0.0, "bm25_sparse": 0.0}
+{"experiment": "retrieval_sparse", "model": "Qwen/Qwen3.5-4B-Base", "context": 2048, "depth": 0.9, "seed": 42, "needle": "1 0 4 3 3", "top_k": 4, "fed_ratio": 0.2583}
+{"experiment": "retrieval_sparse", "model": "Qwen/Qwen3.5-4B-Base", "context": 2048, "depth": 0.9, "seed": 43, "needle": "0 4 2 7 5", "top_k": 4, "fed_ratio": 0.2583}
+{"experiment": "retrieval_sparse", "model": "Qwen/Qwen3.5-4B-Base", "context": 2048, "depth": 0.9, "seed": 44, "needle": "6 8 8 1 2", "top_k": 4, "fed_ratio": 0.2583}
+{"experiment": "retrieval_sparse_summary", "model": "Qwen/Qwen3.5-4B-Base", "context": 2048, "depth": 0.9, "n": 3, "fed_ratio": 0.2583, "bm25_retrieved": 1.0, "dense_full": 1.0, "sparse_full": 1.0, "bm25_dense": 1.0, "bm25_sparse": 1.0}

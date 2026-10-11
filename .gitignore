@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Backups and editor cruft
+*.bak
+*.bak_*
+*~
+.DS_Store
+
+# Run logs, except the provenance log that is part of the deposited artifact
+*.log
+!results/provenance/notebook_tier_campaign.log
+
+# Tool caches
+.ipynb_checkpoints/
+wandb/
+.pytest_cache/

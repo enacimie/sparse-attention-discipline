@@ -1,0 +1,8 @@
+{"experiment": "fidelity_metrics", "method": "dense", "model": "Qwen/Qwen3.5-4B-Base", "context": 2048, "n_samples": 5, "kl_div": 0.0, "logit_mse": 0.0, "logit_cosine": 0.99998, "hidden_cosine": 1.0}
+{"experiment": "fidelity_metrics", "method": "local_global_topk", "model": "Qwen/Qwen3.5-4B-Base", "context": 2048, "n_samples": 5, "kl_div": 0.04774, "logit_mse": 0.17811, "logit_cosine": 0.98669, "hidden_cosine": 0.98253}
+{"experiment": "fidelity_metrics", "method": "streamingllm_bm", "model": "Qwen/Qwen3.5-4B-Base", "context": 2048, "n_samples": 5, "kl_div": 0.32592, "logit_mse": 0.53129, "logit_cosine": 0.96244, "hidden_cosine": 0.94729}
+{"experiment": "fidelity_metrics", "method": "uniform_random_m", "model": "Qwen/Qwen3.5-4B-Base", "context": 2048, "n_samples": 5, "kl_div": 1.0524, "logit_mse": 1.61955, "logit_cosine": 0.87419, "hidden_cosine": 0.84487}
+{"experiment": "fidelity_metrics", "method": "dense", "model": "Qwen/Qwen3.5-4B-Base", "context": 1024, "n_samples": 5, "kl_div": 0.0, "logit_mse": 0.0, "logit_cosine": 0.99998, "hidden_cosine": 1.0}
+{"experiment": "fidelity_metrics", "method": "local_global_topk", "model": "Qwen/Qwen3.5-4B-Base", "context": 1024, "n_samples": 5, "kl_div": 0.03196, "logit_mse": 0.1235, "logit_cosine": 0.99057, "hidden_cosine": 0.98743}
+{"experiment": "fidelity_metrics", "method": "streamingllm_bm", "model": "Qwen/Qwen3.5-4B-Base", "context": 1024, "n_samples": 5, "kl_div": 0.27496, "logit_mse": 0.43983, "logit_cosine": 0.96927, "hidden_cosine": 0.95724}
+{"experiment": "fidelity_metrics", "method": "uniform_random_m", "model": "Qwen/Qwen3.5-4B-Base", "context": 1024, "n_samples": 5, "kl_div": 0.51342, "logit_mse": 0.79582, "logit_cosine": 0.93947, "hidden_cosine": 0.92303}

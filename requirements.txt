@@ -1,0 +1,12 @@
+# Versions differ by platform; see environment_manifest.json for the exact stack of each campaign.
+# The reference host (RTX 3070) ran:
+torch==2.13.0
+transformers>=5.19.0
+bitsandbytes>=0.50.2
+accelerate
+triton==3.7.1
+numpy
+scipy
+huggingface_hub
+sentencepiece
+protobuf

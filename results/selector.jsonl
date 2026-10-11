@@ -1,0 +1,12 @@
+{"experiment": "selector", "model": "LiquidAI/LFM2.5-350M-Base", "layer": 14, "context": 1024, "topk": 64, "precision": 0.8828, "recall": 0.1558, "roc_auc": 0.9389, "n_train": 37229, "n_test": 15956}
+{"experiment": "selector", "model": "LiquidAI/LFM2.5-350M-Base", "layer": 14, "context": 1024, "topk": 64, "precision": 0.8828, "recall": 0.1558, "roc_auc": 0.9389, "n_train": 37229, "n_test": 15956}
+{"experiment": "selector_as_method", "method": "selector", "model": "LiquidAI/LFM2.5-350M-Base", "context": 1024, "budget": 32, "pair_ratio": 0.0615, "kl_div": 0.67081, "logit_mse": 7.0988, "logit_cosine": 0.77753}
+{"experiment": "selector_as_method", "method": "uniform_random", "model": "LiquidAI/LFM2.5-350M-Base", "context": 1024, "budget": 32, "pair_ratio": 0.0632, "kl_div": 1.00147, "logit_mse": 7.29833, "logit_cosine": 0.77612}
+{"experiment": "selector_as_method", "method": "topk", "model": "LiquidAI/LFM2.5-350M-Base", "context": 1024, "budget": 32, "pair_ratio": 0.0615, "kl_div": 0.46647, "logit_mse": 6.86365, "logit_cosine": 0.79413}
+{"experiment": "selector_as_method", "method": "selector", "model": "LiquidAI/LFM2.5-350M-Base", "context": 1024, "budget": 64, "pair_ratio": 0.121, "kl_div": 0.14254, "logit_mse": 5.51426, "logit_cosine": 0.82819}
+{"experiment": "selector_as_method", "method": "uniform_random", "model": "LiquidAI/LFM2.5-350M-Base", "context": 1024, "budget": 64, "pair_ratio": 0.1226, "kl_div": 0.2508, "logit_mse": 5.52528, "logit_cosine": 0.8314}
+{"experiment": "selector_as_method", "method": "topk", "model": "LiquidAI/LFM2.5-350M-Base", "context": 1024, "budget": 64, "pair_ratio": 0.121, "kl_div": 0.205, "logit_mse": 4.82963, "logit_cosine": 0.85987}
+{"experiment": "selector", "model": "LiquidAI/LFM2.5-350M-Base", "layer": 14, "context": 2048, "topk": 64, "precision": 0.8984, "recall": 0.1655, "roc_auc": 0.9688, "n_train": 71501, "n_test": 30644}
+{"experiment": "selector_as_method", "method": "selector", "model": "LiquidAI/LFM2.5-350M-Base", "context": 2048, "budget": 64, "pair_ratio": 0.0615, "kl_div": 0.29327, "logit_mse": 8.68771, "logit_cosine": 0.73878}
+{"experiment": "selector_as_method", "method": "uniform_random", "model": "LiquidAI/LFM2.5-350M-Base", "context": 2048, "budget": 64, "pair_ratio": 0.0624, "kl_div": 0.41358, "logit_mse": 6.3533, "logit_cosine": 0.80307}
+{"experiment": "selector_as_method", "method": "topk", "model": "LiquidAI/LFM2.5-350M-Base", "context": 2048, "budget": 64, "pair_ratio": 0.0615, "kl_div": 0.45292, "logit_mse": 6.2858, "logit_cosine": 0.81787}

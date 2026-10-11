@@ -1,0 +1,8 @@
+{"seq": 1024, "head_dim": 128, "window": 64, "n_global": 4, "block_size": 128, "dense_ms": 0.165, "flex_ms": 0.121, "speedup": 1.364, "active_block_frac": 1.0}
+{"seq": 2048, "head_dim": 128, "window": 64, "n_global": 4, "block_size": 128, "dense_ms": 0.531, "flex_ms": 0.222, "speedup": 2.392, "active_block_frac": 1.0}
+{"seq": 4096, "head_dim": 128, "window": 64, "n_global": 4, "block_size": 128, "dense_ms": 1.91, "flex_ms": 0.426, "speedup": 4.484, "active_block_frac": 1.0}
+{"seq": 8192, "head_dim": 128, "window": 64, "n_global": 4, "block_size": 128, "dense_ms": 7.101, "flex_ms": 0.771, "speedup": 9.21, "active_block_frac": 1.0}
+{"seq": 1024, "head_dim": 256, "window": 64, "n_global": 4, "block_size": 128, "dense_ms": 0.301, "flex_ms": 0.325, "speedup": 0.926, "active_block_frac": 1.0}
+{"seq": 2048, "head_dim": 256, "window": 64, "n_global": 4, "block_size": 128, "dense_ms": 1.082, "flex_ms": 0.662, "speedup": 1.634, "active_block_frac": 1.0}
+{"seq": 4096, "head_dim": 256, "window": 64, "n_global": 4, "block_size": 128, "dense_ms": 3.973, "flex_ms": 1.246, "speedup": 3.189, "active_block_frac": 1.0}
+{"seq": 8192, "head_dim": 256, "window": 64, "n_global": 4, "block_size": 128, "dense_ms": 14.406, "flex_ms": 2.506, "speedup": 5.749, "active_block_frac": 1.0}

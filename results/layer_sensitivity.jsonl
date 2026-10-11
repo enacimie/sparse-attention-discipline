@@ -1,0 +1,9 @@
+{"experiment": "layer_sensitivity", "scope": "all", "layer": -1, "model": "Qwen/Qwen3.5-4B-Base", "context": 2048, "n_samples": 5, "cos_mean": 0.9867}
+{"experiment": "layer_sensitivity", "scope": "single", "layer": 3, "model": "Qwen/Qwen3.5-4B-Base", "context": 2048, "n_samples": 5, "cos_mean": 0.9968}
+{"experiment": "layer_sensitivity", "scope": "single", "layer": 7, "model": "Qwen/Qwen3.5-4B-Base", "context": 2048, "n_samples": 5, "cos_mean": 0.9988}
+{"experiment": "layer_sensitivity", "scope": "single", "layer": 11, "model": "Qwen/Qwen3.5-4B-Base", "context": 2048, "n_samples": 5, "cos_mean": 0.9992}
+{"experiment": "layer_sensitivity", "scope": "single", "layer": 15, "model": "Qwen/Qwen3.5-4B-Base", "context": 2048, "n_samples": 5, "cos_mean": 0.9987}
+{"experiment": "layer_sensitivity", "scope": "single", "layer": 19, "model": "Qwen/Qwen3.5-4B-Base", "context": 2048, "n_samples": 5, "cos_mean": 0.9985}
+{"experiment": "layer_sensitivity", "scope": "single", "layer": 23, "model": "Qwen/Qwen3.5-4B-Base", "context": 2048, "n_samples": 5, "cos_mean": 0.9991}
+{"experiment": "layer_sensitivity", "scope": "single", "layer": 27, "model": "Qwen/Qwen3.5-4B-Base", "context": 2048, "n_samples": 5, "cos_mean": 0.9966}
+{"experiment": "layer_sensitivity", "scope": "single", "layer": 31, "model": "Qwen/Qwen3.5-4B-Base", "context": 2048, "n_samples": 5, "cos_mean": 0.9977}

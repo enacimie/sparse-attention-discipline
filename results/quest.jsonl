@@ -1,0 +1,15 @@
+{"experiment": "quest", "method": "dense", "model": "Qwen/Qwen3.5-0.8B", "context": 2048, "bits": 4, "pages_keep": 8, "needle_recall": 1.0, "kv_cache_mb_eff": 24.18}
+{"experiment": "quest", "method": "quest_quant_b4", "model": "Qwen/Qwen3.5-0.8B", "context": 2048, "bits": 4, "pages_keep": 8, "needle_recall": 1.0, "kv_cache_mb_eff": 6.04}
+{"experiment": "quest", "method": "quest_sel_b4", "model": "Qwen/Qwen3.5-0.8B", "context": 2048, "bits": 4, "pages_keep": 8, "needle_recall": 0.0, "kv_cache_mb_eff": 0.46}
+{"experiment": "quest", "method": "dense", "model": "Qwen/Qwen3.5-0.8B", "context": 2048, "bits": 8, "pages_keep": 8, "needle_recall": 1.0, "kv_cache_mb_eff": 24.18}
+{"experiment": "quest", "method": "quest_quant_b8", "model": "Qwen/Qwen3.5-0.8B", "context": 2048, "bits": 8, "pages_keep": 8, "needle_recall": 1.0, "kv_cache_mb_eff": 12.09}
+{"experiment": "quest", "method": "quest_sel_b8", "model": "Qwen/Qwen3.5-0.8B", "context": 2048, "bits": 8, "pages_keep": 8, "needle_recall": 0.0, "kv_cache_mb_eff": 0.91}
+{"experiment": "quest", "method": "dense", "model": "Qwen/Qwen3.5-0.8B", "context": 2048, "bits": 4, "pages_keep": 8, "needle_recall": 1.0, "kv_cache_mb_eff": 24.18}
+{"experiment": "quest", "method": "quest_quant_b4", "model": "Qwen/Qwen3.5-0.8B", "context": 2048, "bits": 4, "pages_keep": 8, "needle_recall": 1.0, "kv_cache_mb_eff": 6.04}
+{"experiment": "quest", "method": "quest_sel_b4", "model": "Qwen/Qwen3.5-0.8B", "context": 2048, "bits": 4, "pages_keep": 8, "needle_recall": 0.0, "kv_cache_mb_eff": 0.42}
+{"experiment": "quest", "method": "dense", "model": "Qwen/Qwen3.5-0.8B", "context": 2048, "bits": 4, "pages_keep": 16, "needle_recall": 1.0, "kv_cache_mb_eff": 24.18}
+{"experiment": "quest", "method": "quest_quant_b4", "model": "Qwen/Qwen3.5-0.8B", "context": 2048, "bits": 4, "pages_keep": 16, "needle_recall": 1.0, "kv_cache_mb_eff": 6.04}
+{"experiment": "quest", "method": "dense", "model": "Qwen/Qwen3.5-0.8B", "context": 2048, "bits": 4, "pages_keep": 8, "needle_recall": 1.0, "kv_cache_mb_eff": 24.27}
+{"experiment": "quest", "method": "quest_quant_b4", "model": "Qwen/Qwen3.5-0.8B", "context": 2048, "bits": 4, "pages_keep": 8, "needle_recall": 1.0, "kv_cache_mb_eff": 6.07}
+{"experiment": "quest", "method": "dense", "model": "Qwen/Qwen3.5-0.8B", "context": 2048, "bits": 8, "pages_keep": 8, "needle_recall": 1.0, "kv_cache_mb_eff": 24.27}
+{"experiment": "quest", "method": "quest_quant_b8", "model": "Qwen/Qwen3.5-0.8B", "context": 2048, "bits": 8, "pages_keep": 8, "needle_recall": 1.0, "kv_cache_mb_eff": 12.13}

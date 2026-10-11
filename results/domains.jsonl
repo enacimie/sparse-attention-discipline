@@ -1,0 +1,9 @@
+{"experiment": "domains", "domain": "code", "method": "local_global_topk", "model": "Qwen/Qwen3.5-4B-Base", "context": 2048, "n_samples": 5, "cos_mean": 0.9666}
+{"experiment": "domains", "domain": "code", "method": "streamingllm_bm", "model": "Qwen/Qwen3.5-4B-Base", "context": 2048, "n_samples": 5, "cos_mean": 0.8768}
+{"experiment": "domains", "domain": "code", "method": "uniform_random_m", "model": "Qwen/Qwen3.5-4B-Base", "context": 2048, "n_samples": 5, "cos_mean": 0.7138}
+{"experiment": "domains", "domain": "math", "method": "local_global_topk", "model": "Qwen/Qwen3.5-4B-Base", "context": 2048, "n_samples": 5, "cos_mean": 0.9867}
+{"experiment": "domains", "domain": "math", "method": "streamingllm_bm", "model": "Qwen/Qwen3.5-4B-Base", "context": 2048, "n_samples": 5, "cos_mean": 0.9624}
+{"experiment": "domains", "domain": "math", "method": "uniform_random_m", "model": "Qwen/Qwen3.5-4B-Base", "context": 2048, "n_samples": 5, "cos_mean": 0.8742}
+{"experiment": "domains", "domain": "math", "method": "local_global_topk", "model": "Qwen/Qwen3.5-4B-Base", "context": 2048, "n_samples": 5, "cos_mean": 0.9855}
+{"experiment": "domains", "domain": "math", "method": "streamingllm_bm", "model": "Qwen/Qwen3.5-4B-Base", "context": 2048, "n_samples": 5, "cos_mean": 0.9484}
+{"experiment": "domains", "domain": "math", "method": "uniform_random_m", "model": "Qwen/Qwen3.5-4B-Base", "context": 2048, "n_samples": 5, "cos_mean": 0.7605}

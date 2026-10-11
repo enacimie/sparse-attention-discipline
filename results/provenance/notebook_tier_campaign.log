@@ -1,0 +1,344 @@
+[{"stream_name":"stdout","time":0.902314492,"data":"==========================================================================\n"}
+,{"stream_name":"stdout","time":0.902354446,"data":"ENTORNO\n"}
+,{"stream_name":"stdout","time":0.902358455,"data":"==========================================================================\n"}
+,{"stream_name":"stdout","time":0.902360908,"data":"$ nvidia-smi\n"}
+,{"stream_name":"stdout","time":0.937354831,"data":"Sat Oct 10 22:58:44 2026       \n"}
+,{"stream_name":"stdout","time":0.937377612,"data":"+-----------------------------------------------------------------------------------------+\n"}
+,{"stream_name":"stdout","time":0.937382897,"data":"| NVIDIA-SMI 580.178.04             Driver Version: 580.178.04     CUDA Version: 13.0     |\n"}
+,{"stream_name":"stdout","time":0.937387165,"data":"+-----------------------------------------+------------------------+----------------------+\n"}
+,{"stream_name":"stdout","time":0.937391256,"data":"| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n"}
+,{"stream_name":"stdout","time":0.937395418,"data":"| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n"}
+,{"stream_name":"stdout","time":0.937399471,"data":"|                                         |                        |               MIG M. |\n"}
+,{"stream_name":"stdout","time":0.937403546,"data":"|=========================================+========================+======================|\n"}
+,{"stream_name":"stdout","time":0.990072769,"data":"|   0  Tesla T4                       Off |   00000000:00:04.0 Off |                    0 |\n"}
+,{"stream_name":"stdout","time":0.990095779,"data":"| N/A   46C    P8              9W /   70W |       0MiB /  15360MiB |      0%      Default |\n"}
+,{"stream_name":"stdout","time":0.990099108,"data":"|                                         |                        |                  N/A |\n"}
+,{"stream_name":"stdout","time":0.990101528,"data":"+-----------------------------------------+------------------------+----------------------+\n"}
+,{"stream_name":"stdout","time":0.990103947,"data":"|   1  Tesla T4                       Off |   00000000:00:05.0 Off |                    0 |\n"}
+,{"stream_name":"stdout","time":0.990106202,"data":"| N/A   49C    P8             10W /   70W |       0MiB /  15360MiB |      0%      Default |\n"}
+,{"stream_name":"stdout","time":0.990108432,"data":"|                                         |                        |                  N/A |\n"}
+,{"stream_name":"stdout","time":0.990110679,"data":"+-----------------------------------------+------------------------+----------------------+\n"}
+,{"stream_name":"stdout","time":0.990682749,"data":"\n"}
+,{"stream_name":"stdout","time":0.990690783,"data":"+-----------------------------------------------------------------------------------------+\n"}
+,{"stream_name":"stdout","time":0.990695334,"data":"| Processes:                                                                              |\n"}
+,{"stream_name":"stdout","time":0.990699046,"data":"|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n"}
+,{"stream_name":"stdout","time":0.990702854,"data":"|        ID   ID                                                               Usage      |\n"}
+,{"stream_name":"stdout","time":0.990706526,"data":"|=========================================================================================|\n"}
+,{"stream_name":"stdout","time":0.992317904,"data":"|  No running processes found                                                             |\n"}
+,{"stream_name":"stdout","time":0.992335886,"data":"+-----------------------------------------------------------------------------------------+\n"}
+,{"stream_name":"stdout","time":1.313440347,"data":"$ /usr/bin/python3 -m pip install -q -U transformers accelerate bitsandbytes datasets\n"}
+,{"stream_name":"stdout","time":7.149065822,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.6/12.6 MB 101.6 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":7.177549202,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 394.3/394.3 kB 20.7 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":7.557804427,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 43.1/43.1 MB 50.7 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":7.587361704,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 604.4/604.4 kB 29.1 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":7.615578084,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 839.9/839.9 kB 42.0 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":7.64540635,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 516.0/516.0 kB 23.8 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":7.687292187,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.4/3.4 MB 102.5 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":7.719270009,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 125.3/125.3 kB 4.9 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":7.76983107,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.2/4.2 MB 102.1 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":7.795248179,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 95.6/95.6 kB 5.1 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":7.820209075,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 83.4/83.4 kB 4.5 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":7.844311175,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 69.6/69.6 kB 3.8 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":28.329485674,"data":"ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\n"}
+,{"stream_name":"stdout","time":28.329508091,"data":"google-adk 1.29.0 requires google-cloud-bigquery-storage\u003e=2.0.0, which is not installed.\n"}
+,{"stream_name":"stdout","time":28.329512645,"data":"diffusers 0.37.1 requires huggingface-hub\u003c2.0,\u003e=0.34.0, but you have huggingface-hub 2.2.0 which is incompatible.\n"}
+,{"stream_name":"stdout","time":28.329516382,"data":"gradio-client 1.14.0 requires huggingface-hub\u003c2.0,\u003e=0.19.3, but you have huggingface-hub 2.2.0 which is incompatible.\n"}
+,{"stream_name":"stdout","time":28.32951996,"data":"gradio 5.50.0 requires huggingface-hub\u003c2.0,\u003e=0.33.5, but you have huggingface-hub 2.2.0 which is incompatible.\n"}
+,{"stream_name":"stdout","time":28.482212443,"data":"$ /usr/bin/python3 -c import torch, transformers, bitsandbytes as b;print('torch', torch.__version__, '| transformers', transformers.__version__, '| bitsandbytes', b.__version__, '| n_gpu', torch.cuda.device_count());[print('  gpu', i, torch.cuda.get_device_name(i), torch.cuda.get_device_capability(i)) for i in range(torch.cuda.device_count())]\n"}
+,{"stream_name":"stdout","time":56.080991408,"data":"torch 2.10.0+cu128 | transformers 5.19.0 | bitsandbytes 0.50.2 | n_gpu 2\n"}
+,{"stream_name":"stdout","time":56.081023267,"data":"  gpu 0 Tesla T4 (7, 5)\n"}
+,{"stream_name":"stdout","time":56.081028829,"data":"  gpu 1 Tesla T4 (7, 5)\n"}
+,{"stream_name":"stdout","time":59.985183707,"data":"disco /kaggle/working: 20.9 GB libres de 21.0 GB\n"}
+,{"stream_name":"stdout","time":59.985216213,"data":"$ nvidia-smi --query-gpu=index,name,memory.used,memory.total --format=csv,noheader\n"}
+,{"stream_name":"stdout","time":60.01526256,"data":"0, Tesla T4, 0 MiB, 15360 MiB\n"}
+,{"stream_name":"stdout","time":60.015295499,"data":"1, Tesla T4, 0 MiB, 15360 MiB\n"}
+,{"stream_name":"stdout","time":60.022130734,"data":"RAM inicial: disponible 31.6 GB de 32.9 GB\n"}
+,{"stream_name":"stdout","time":60.117275639,"data":"dataset resuelto en: /kaggle/input/datasets/eduardonacimientog/mlattention-repo\n"}
+,{"stream_name":"stdout","time":60.452962434,"data":"arbol montado: ['results', 'scripts', 'src']\n"}
+,{"stream_name":"stdout","time":60.452990908,"data":"\n"}
+,{"stream_name":"stdout","time":60.452996911,"data":"==========================================================================\n"}
+,{"stream_name":"stdout","time":60.453002159,"data":"BLOQUE A. Qwen3.5-4B-Base fidelity 8 metodos x ctx 1024/2048/4096\n"}
+,{"stream_name":"stdout","time":60.453007213,"data":"==========================================================================\n"}
+,{"stream_name":"stdout","time":60.45301234,"data":"disco /kaggle/working: 20.9 GB libres de 21.0 GB\n"}
+,{"stream_name":"stdout","time":72.28094258,"data":"=== LEADERBOARD: 1 models × 3 contexts × 8 methods = 24 combos ===\n"}
+,{"stream_name":"stderr","time":72.629362229,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":122.570584409,"data":"\rFetching 2 files:   0%|          | 0/2 [00:00\u003c?, ?it/s]\rFetching 2 files:  50%|█████     | 1/2 [00:46\u003c00:46, 46.38s/it]\rFetching 2 files: 100%|██████████| 2/2 [00:46\u003c00:00, 23.19s/it]\n"}
+,{"stream_name":"stderr","time":125.486670351,"data":"\rLoading weights:   0%|          | 0/426 [00:00\u003c?, ?it/s]\rLoading weights:   0%|          | 1/426 [00:00\u003c02:08,  3.32it/s]\rLoading weights:   2%|▏         | 8/426 [00:00\u003c00:17, 24.22it/s]\rLoading weights:   7%|▋         | 28/426 [00:00\u003c00:05, 75.96it/s]\rLoading weights:  11%|█         | 47/426 [00:00\u003c00:03, 110.02it/s]\rLoading weights:  18%|█▊        | 76/426 [00:00\u003c00:02, 163.08it/s]\rLoading weights:  23%|██▎       | 96/426 [00:00\u003c00:01, 172.31it/s]\rLoading weights:  28%|██▊       | 119/426 [00:00\u003c00:01, 186.04it/s]\rLoading weights:  34%|███▍      | 146/426 [00:01\u003c00:01, 205.80it/s]\rLoading weights:  40%|███▉      | 170/426 [00:01\u003c00:01, 212.38it/s]\rLoading weights:  46%|████▌     | 195/426 [00:01\u003c00:01, 218.45it/s]\rLoading weights:  51%|█████     | 218/426 [00:01\u003c00:00, 219.19it/s]\rLoading weights:  57%|█████▋    | 241/426 [00:01\u003c00:00, 211.73it/s]\rLoading weights:  62%|██████▏   | 263/426 [00:01\u003c00:00, 212.72it/s]\rLoading weights:  68%|██████▊   | 291/426 [00:01\u003c00:00, 226.96it/s]\rLoading weights:  74%|███████▎  | 314/426 [00:01\u003c00:00, 214.42it/s]\rLoading weights:  81%|████████  | 343/426 [00:01\u003c00:00, 231.70it/s]\rLoading weights:  86%|████████▌ | 367/426 [00:02\u003c00:00, 214.58it/s]\rLoading weights:  93%|█████████▎| 396/426 [00:02\u003c00:00, 232.14it/s]\rLoading weights:  99%|█████████▊| 420/426 [00:02\u003c00:00, 215.19it/s]\rLoading weights: 100%|██████████| 426/426 [00:02\u003c00:00, 185.12it/s]\n"}
+,{"stream_name":"stdout","time":128.040795137,"data":"\n"}
+,{"stream_name":"stdout","time":128.040829944,"data":"[model] qwen3.5-4b-base (Qwen/Qwen3.5-4B-Base)  full_attn_layers=[3, 7, 11, 15, 19, 23, 27, 31]  q_heads=16  kv_heads=4  head_dim=256\n"}
+,{"stream_name":"stderr","time":135.271794412,"data":"\rGenerating test split:   0%|          | 0/4358 [00:00\u003c?, ? examples/s]\rGenerating test split: 100%|██████████| 4358/4358 [00:00\u003c00:00, 46076.96 examples/s]\n"}
+,{"stream_name":"stderr","time":137.619444263,"data":"\rGenerating train split:   0%|          | 0/1801350 [00:00\u003c?, ? examples/s]\rGenerating train split:   3%|▎         | 54000/1801350 [00:00\u003c00:03, 521327.78 examples/s]\rGenerating train split:   8%|▊         | 141000/1801350 [00:00\u003c00:02, 716167.63 examples/s]\rGenerating train split:  14%|█▍        | 250000/1801350 [00:00\u003c00:02, 713846.63 examples/s]\rGenerating train split:  19%|█▊        | 335000/1801350 [00:00\u003c00:01, 758959.96 examples/s]\rGenerating train split:  25%|██▍       | 447000/1801350 [00:00\u003c00:01, 750514.84 examples/s]\rGenerating train split:  30%|██▉       | 535000/1801350 [00:00\u003c00:01, 786252.02 examples/s]\rGenerating train split:  35%|███▍      | 623000/1801350 [00:00\u003c00:01, 766958.65 examples/s]\rGenerating train split:  39%|███▉      | 710000/1801350 [00:00\u003c00:01, 793706.23 examples/s]\rGenerating train split:  45%|████▌     | 818000/1801350 [00:01\u003c00:01, 763464.52 examples/s]\rGenerating train split:  50%|█████     | 901675/1801350 [00:01\u003c00:01, 719836.58 examples/s]\rGenerating train split:  55%|█████▍    | 986675/1801350 [00:01\u003c00:01, 749176.08 examples/s]\rGenerating train split:  60%|█████▉    | 1072675/1801350 [00:01\u003c00:00, 776274.44 examples/s]\rGenerating train split:  66%|██████▌   | 1182675/1801350 [00:01\u003c00:00, 756497.00 examples/s]\rGenerating train split:  70%|███████   | 1266675/1801350 [00:01\u003c00:00, 775346.30 examples/s]\rGenerating train split:  77%|███████▋  | 1380675/1801350 [00:01\u003c00:00, 766671.34 examples/s]\rGenerating train split:  81%|████████▏ | 1464675/1801350 [00:01\u003c00:00, 781628.01 examples/s]\rGenerating train split:  88%|████████▊ | 1587675/1801350 [00:02\u003c00:00, 791117.55 examples/s]\rGenerating train split:  93%|█████████▎| 1669675/1801350 [00:02\u003c00:00, 785034.46 examples/s]\rGenerating train split:  97%|█████████▋| 1755675/1801350 [00:02\u003c00:00, 801396.39 examples/s]\rGenerating train split: 100%|██████████| 1801350/1801350 [00:02\u003c00:00, 767481.04 examples/s]\n"}
+,{"stream_name":"stderr","time":137.627153311,"data":"\rGenerating validation split:   0%|          | 0/3760 [00:00\u003c?, ? examples/s]\rGenerating validation split: 100%|██████████| 3760/3760 [00:00\u003c00:00, 623712.99 examples/s]\n"}
+,{"stream_name":"stderr","time":138.791544356,"data":"[transformers] Token indices sequence length is longer than the specified maximum sequence length for this model (297053 \u003e 262144). Running this sequence through the model will result in indexing errors\n"}
+,{"stream_name":"stderr","time":139.382365329,"data":"[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.\n"}
+,{"stream_name":"stderr","time":139.48704122,"data":"[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.\n"}
+,{"stream_name":"stderr","time":193.611805143,"data":"[transformers] `causal_conv1d_update` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.\n"}
+,{"stream_name":"stderr","time":193.612605573,"data":"[transformers] `fused_recurrent_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.\n"}
+,{"stream_name":"stdout","time":228.177248867,"data":"  [1/24] qwen3.5-4b-base    ctx= 1024 dense                 cos=1.0000  needle=0.667  pr=1.0000  (100s)\n"}
+,{"stream_name":"stdout","time":354.828888028,"data":"  [2/24] qwen3.5-4b-base    ctx= 1024 lg_topk_k32           cos=0.9906  needle=0.667  pr=0.1660  (127s)\n"}
+,{"stream_name":"stdout","time":490.357155059,"data":"  [3/24] qwen3.5-4b-base    ctx= 1024 lg_randtopk_k32       cos=0.9693  needle=0.000  pr=0.1770  (136s)\n"}
+,{"stream_name":"stdout","time":622.565102888,"data":"  [4/24] qwen3.5-4b-base    ctx= 1024 lg_adaptive_m09       cos=0.9742  needle=0.333  pr=0.1331  (132s)\n"}
+,{"stream_name":"stdout","time":750.628620093,"data":"  [5/24] qwen3.5-4b-base    ctx= 1024 lg_entropy            cos=0.9778  needle=0.556  pr=0.1351  (128s)\n"}
+,{"stream_name":"stdout","time":878.818265695,"data":"  [6/24] qwen3.5-4b-base    ctx= 1024 lg_perhead            cos=0.9991  needle=0.667  pr=0.3134  (128s)\n"}
+,{"stream_name":"stdout","time":1016.028798307,"data":"  [7/24] qwen3.5-4b-base    ctx= 1024 streamingllm_bm       cos=0.9674  needle=0.000  pr=0.1680  (137s)\n"}
+,{"stream_name":"stdout","time":1155.41806369,"data":"  [8/24] qwen3.5-4b-base    ctx= 1024 uniform_random_m      cos=0.8221  needle=0.000  pr=0.0632  (139s)\n"}
+,{"stream_name":"stdout","time":1348.200887336,"data":"  [9/24] qwen3.5-4b-base    ctx= 2048 dense                 cos=1.0000  needle=1.000  pr=1.0000  (193s)\n"}
+,{"stream_name":"stdout","time":1597.89821857,"data":"  [10/24] qwen3.5-4b-base    ctx= 2048 lg_topk_k32           cos=0.9867  needle=1.000  pr=0.0859  (250s)\n"}
+,{"stream_name":"stdout","time":1855.941008362,"data":"  [11/24] qwen3.5-4b-base    ctx= 2048 lg_randtopk_k32       cos=0.9620  needle=0.000  pr=0.0928  (258s)\n"}
+,{"stream_name":"stdout","time":2113.87397766,"data":"  [12/24] qwen3.5-4b-base    ctx= 2048 lg_adaptive_m09       cos=0.9676  needle=0.444  pr=0.0680  (258s)\n"}
+,{"stream_name":"stdout","time":2365.7370903,"data":"  [13/24] qwen3.5-4b-base    ctx= 2048 lg_entropy            cos=0.9712  needle=0.667  pr=0.0688  (252s)\n"}
+,{"stream_name":"stdout","time":2619.145243361,"data":"  [14/24] qwen3.5-4b-base    ctx= 2048 lg_perhead            cos=0.9984  needle=1.000  pr=0.1796  (253s)\n"}
+,{"stream_name":"stdout","time":2878.402372396,"data":"  [15/24] qwen3.5-4b-base    ctx= 2048 streamingllm_bm       cos=0.9605  needle=0.000  pr=0.0859  (259s)\n"}
+,{"stream_name":"stdout","time":3139.648043075,"data":"  [16/24] qwen3.5-4b-base    ctx= 2048 uniform_random_m      cos=0.7497  needle=0.000  pr=0.0319  (261s)\n"}
+,{"stream_name":"stdout","time":3531.563789056,"data":"  [17/24] qwen3.5-4b-base    ctx= 4096 dense                 cos=1.0000  needle=1.000  pr=1.0000  (392s)\n"}
+,{"stream_name":"stdout","time":4040.784504892,"data":"  [18/24] qwen3.5-4b-base    ctx= 4096 lg_topk_k32           cos=0.9810  needle=1.000  pr=0.0441  (509s)\n"}
+,{"stream_name":"stdout","time":4552.9790311,"data":"  [19/24] qwen3.5-4b-base    ctx= 4096 lg_randtopk_k32       cos=0.9535  needle=0.000  pr=0.0477  (512s)\n"}
+,{"stream_name":"stdout","time":5063.256638122,"data":"  [20/24] qwen3.5-4b-base    ctx= 4096 lg_adaptive_m09       cos=0.9608  needle=0.333  pr=0.0345  (510s)\n"}
+,{"stream_name":"stdout","time":5572.195520281,"data":"  [21/24] qwen3.5-4b-base    ctx= 4096 lg_entropy            cos=0.9640  needle=0.778  pr=0.0348  (509s)\n"}
+,{"stream_name":"stdout","time":6093.523161992,"data":"  [22/24] qwen3.5-4b-base    ctx= 4096 lg_perhead            cos=0.9969  needle=1.000  pr=0.1012  (521s)\n"}
+,{"stream_name":"stdout","time":6610.469338284,"data":"  [23/24] qwen3.5-4b-base    ctx= 4096 streamingllm_bm       cos=0.9525  needle=0.000  pr=0.0435  (517s)\n"}
+,{"stream_name":"stdout","time":7127.010037805,"data":"  [24/24] qwen3.5-4b-base    ctx= 4096 uniform_random_m      cos=0.6933  needle=0.000  pr=0.0160  (517s)\n"}
+,{"stream_name":"stdout","time":7127.241958599,"data":"\n"}
+,{"stream_name":"stdout","time":7127.241994006,"data":"=== DONE: 24/24 combos completed ===\n"}
+,{"stream_name":"stdout","time":7127.242000355,"data":"Results -\u003e /kaggle/working/mlattention/scripts/../results/leaderboard.jsonl\n"}
+,{"stream_name":"stdout","time":7132.054862728,"data":"\u003e\u003e\u003e A. Qwen3.5-4B-Base fidelity 8 metodos x ctx 1024/2048/4096 termino en 7072s\n"}
+,{"stream_name":"stdout","time":7132.054912248,"data":"$ nvidia-smi --query-gpu=index,name,memory.used,memory.total --format=csv,noheader\n"}
+,{"stream_name":"stdout","time":7132.221022217,"data":"0, Tesla T4, 0 MiB, 15360 MiB\n"}
+,{"stream_name":"stdout","time":7132.221072106,"data":"1, Tesla T4, 0 MiB, 15360 MiB\n"}
+,{"stream_name":"stdout","time":7132.228549194,"data":"RAM A. Qwen3.5-4B-Base fidelity 8 metodos x ctx 1024/2048/4096: disponible 31.9 GB de 32.9 GB\n"}
+,{"stream_name":"stdout","time":7132.228584554,"data":"\n"}
+,{"stream_name":"stdout","time":7132.228588952,"data":"==========================================================================\n"}
+,{"stream_name":"stdout","time":7132.228593186,"data":"BLOQUE B. Falcon-H1 1.5B y 3B\n"}
+,{"stream_name":"stdout","time":7132.228612537,"data":"==========================================================================\n"}
+,{"stream_name":"stdout","time":7132.228728859,"data":"disco /kaggle/working: 10.7 GB libres de 21.0 GB\n"}
+,{"stream_name":"stdout","time":7161.881918828,"data":"=== LEADERBOARD: 2 models × 2 contexts × 8 methods = 32 combos ===\n"}
+,{"stream_name":"stdout","time":7161.881946236,"data":"Resuming — 24 already completed, skipping those\n"}
+,{"stream_name":"stderr","time":7162.133819739,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":7186.364633962,"data":"\rLoading weights:   0%|          | 0/411 [00:00\u003c?, ?it/s]\rLoading weights:   0%|          | 2/411 [00:00\u003c00:24, 16.63it/s]\rLoading weights:   1%|          | 4/411 [00:00\u003c00:22, 17.74it/s]\rLoading weights:  13%|█▎        | 53/411 [00:00\u003c00:01, 218.80it/s]\rLoading weights:  24%|██▍       | 100/411 [00:00\u003c00:01, 310.75it/s]\rLoading weights:  36%|███▋      | 149/411 [00:00\u003c00:00, 368.82it/s]\rLoading weights:  48%|████▊     | 198/411 [00:00\u003c00:00, 408.73it/s]\rLoading weights:  59%|█████▉    | 243/411 [00:00\u003c00:00, 421.02it/s]\rLoading weights:  71%|███████▏  | 293/411 [00:00\u003c00:00, 443.74it/s]\rLoading weights:  84%|████████▎ | 344/411 [00:00\u003c00:00, 456.54it/s]\rLoading weights:  96%|█████████▌| 395/411 [00:01\u003c00:00, 465.12it/s]\rLoading weights: 100%|██████████| 411/411 [00:01\u003c00:00, 381.44it/s]\n"}
+,{"stream_name":"stdout","time":7188.791408409,"data":"\n"}
+,{"stream_name":"stdout","time":7188.791446751,"data":"[model] falcon-h1-1.5b (tiiuae/Falcon-H1-1.5B-Base)  full_attn_layers=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]  q_heads=8  kv_heads=2  head_dim=128\n"}
+,{"stream_name":"stderr","time":7192.66233074,"data":"[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.\n"}
+,{"stream_name":"stderr","time":7192.70093987,"data":"[transformers] `mamba_chunk_scan_combined` is falling back to its reference PyTorch implementation because `mamba_ssm` is not installed. This is correct but much slower; install `mamba_ssm` for the optimized kernel.\n"}
+,{"stream_name":"stderr","time":7209.117526509,"data":"[transformers] Ignoring clean_up_tokenization_spaces=True for BPE tokenizer TokenizersBackend. The clean_up_tokenization post-processing step is designed for WordPiece tokenizers and is destructive for BPE (it strips spaces before punctuation). Set clean_up_tokenization_spaces=False to suppress this warning, or set clean_up_tokenization_spaces_for_bpe_even_though_it_will_corrupt_output=True to force cleanup anyway.\n"}
+,{"stream_name":"stderr","time":7210.706019853,"data":"[transformers] `causal_conv1d_update` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.\n"}
+,{"stream_name":"stderr","time":7210.706627716,"data":"[transformers] `selective_state_update` is falling back to its reference PyTorch implementation because `mamba_ssm` is not installed. This is correct but much slower; install `mamba_ssm` for the optimized kernel.\n"}
+,{"stream_name":"stdout","time":7240.055494831,"data":"  [1/32] falcon-h1-1.5b     ctx= 1024 dense                 cos=1.0000  needle=0.667  pr=1.0000  (51s)\n"}
+,{"stream_name":"stdout","time":7304.836725354,"data":"  [2/32] falcon-h1-1.5b     ctx= 1024 lg_topk_k32           cos=0.9999  needle=0.667  pr=0.1613  (65s)\n"}
+,{"stream_name":"stdout","time":7368.850790373,"data":"  [3/32] falcon-h1-1.5b     ctx= 1024 lg_randtopk_k32       cos=0.9995  needle=0.000  pr=0.1770  (64s)\n"}
+,{"stream_name":"stdout","time":7433.974985729,"data":"  [4/32] falcon-h1-1.5b     ctx= 1024 lg_adaptive_m09       cos=0.9995  needle=0.444  pr=0.1312  (65s)\n"}
+,{"stream_name":"stdout","time":7499.820054475,"data":"  [5/32] falcon-h1-1.5b     ctx= 1024 lg_entropy            cos=0.9996  needle=0.444  pr=0.1321  (66s)\n"}
+,{"stream_name":"stdout","time":7566.415661362,"data":"  [6/32] falcon-h1-1.5b     ctx= 1024 lg_perhead            cos=1.0000  needle=0.667  pr=0.2590  (67s)\n"}
+,{"stream_name":"stdout","time":7628.905783007,"data":"  [7/32] falcon-h1-1.5b     ctx= 1024 streamingllm_bm       cos=0.9995  needle=0.000  pr=0.1680  (62s)\n"}
+,{"stream_name":"stdout","time":7692.962787568,"data":"  [8/32] falcon-h1-1.5b     ctx= 1024 uniform_random_m      cos=0.9982  needle=0.000  pr=0.0632  (64s)\n"}
+,{"stream_name":"stdout","time":7777.756379791,"data":"  [9/32] falcon-h1-1.5b     ctx= 2048 dense                 cos=1.0000  needle=0.667  pr=1.0000  (85s)\n"}
+,{"stream_name":"stdout","time":7886.316829595,"data":"  [10/32] falcon-h1-1.5b     ctx= 2048 lg_topk_k32           cos=0.9999  needle=0.667  pr=0.0833  (109s)\n"}
+,{"stream_name":"stdout","time":7995.114977276,"data":"  [11/32] falcon-h1-1.5b     ctx= 2048 lg_randtopk_k32       cos=0.9994  needle=0.000  pr=0.0928  (109s)\n"}
+,{"stream_name":"stdout","time":8105.289233163,"data":"  [12/32] falcon-h1-1.5b     ctx= 2048 lg_adaptive_m09       cos=0.9995  needle=0.667  pr=0.0669  (110s)\n"}
+,{"stream_name":"stdout","time":8216.240751697,"data":"  [13/32] falcon-h1-1.5b     ctx= 2048 lg_entropy            cos=0.9995  needle=0.556  pr=0.0673  (111s)\n"}
+,{"stream_name":"stdout","time":8329.96831592,"data":"  [14/32] falcon-h1-1.5b     ctx= 2048 lg_perhead            cos=1.0000  needle=0.667  pr=0.1425  (114s)\n"}
+,{"stream_name":"stdout","time":8442.038340911,"data":"  [15/32] falcon-h1-1.5b     ctx= 2048 streamingllm_bm       cos=0.9994  needle=0.000  pr=0.0859  (112s)\n"}
+,{"stream_name":"stdout","time":8551.533416415,"data":"  [16/32] falcon-h1-1.5b     ctx= 2048 uniform_random_m      cos=0.9978  needle=0.000  pr=0.0319  (109s)\n"}
+,{"stream_name":"stderr","time":8585.669487398,"data":"\rFetching 2 files:   0%|          | 0/2 [00:00\u003c?, ?it/s]\rFetching 2 files:  50%|█████     | 1/2 [00:32\u003c00:32, 32.74s/it]\rFetching 2 files: 100%|██████████| 2/2 [00:32\u003c00:00, 16.37s/it]\n"}
+,{"stream_name":"stderr","time":8587.756054086,"data":"\rLoading weights:   0%|          | 0/547 [00:00\u003c?, ?it/s]\rLoading weights:   0%|          | 2/547 [00:00\u003c00:39, 13.85it/s]\rLoading weights:   6%|▌         | 32/547 [00:00\u003c00:03, 155.18it/s]\rLoading weights:  12%|█▏        | 66/547 [00:00\u003c00:02, 226.11it/s]\rLoading weights:  18%|█▊        | 100/547 [00:00\u003c00:01, 262.50it/s]\rLoading weights:  24%|██▍       | 134/547 [00:00\u003c00:01, 284.72it/s]\rLoading weights:  31%|███       | 168/547 [00:00\u003c00:01, 298.61it/s]\rLoading weights:  37%|███▋      | 202/547 [00:00\u003c00:01, 306.68it/s]\rLoading weights:  43%|████▎     | 236/547 [00:00\u003c00:00, 313.20it/s]\rLoading weights:  49%|████▉     | 270/547 [00:00\u003c00:00, 318.80it/s]\rLoading weights:  55%|█████▌    | 303/547 [00:01\u003c00:00, 321.91it/s]\rLoading weights:  61%|██████▏   | 336/547 [00:01\u003c00:00, 319.62it/s]\rLoading weights:  68%|██████▊   | 370/547 [00:01\u003c00:00, 319.24it/s]\rLoading weights:  74%|███████▍  | 404/547 [00:01\u003c00:00, 320.87it/s]\rLoading weights:  80%|████████  | 438/547 [00:01\u003c00:00, 322.81it/s]\rLoading weights:  86%|████████▋ | 472/547 [00:01\u003c00:00, 324.07it/s]\rLoading weights:  93%|█████████▎| 506/547 [00:01\u003c00:00, 323.76it/s]\rLoading weights:  99%|█████████▊| 540/547 [00:01\u003c00:00, 324.51it/s]\rLoading weights: 100%|██████████| 547/547 [00:01\u003c00:00, 299.93it/s]\n"}
+,{"stream_name":"stdout","time":8590.184556378,"data":"\n"}
+,{"stream_name":"stdout","time":8590.184591635,"data":"[model] falcon-h1-3b (tiiuae/Falcon-H1-3B-Base)  full_attn_layers=[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]  q_heads=10  kv_heads=2  head_dim=128\n"}
+,{"stream_name":"stdout","time":8668.797770975,"data":"  [17/32] falcon-h1-3b       ctx= 1024 dense                 cos=1.0000  needle=0.667  pr=1.0000  (79s)\n"}
+,{"stream_name":"stdout","time":8767.986937995,"data":"  [18/32] falcon-h1-3b       ctx= 1024 lg_topk_k32           cos=0.9999  needle=0.667  pr=0.1628  (99s)\n"}
+,{"stream_name":"stdout","time":8869.618140513,"data":"  [19/32] falcon-h1-3b       ctx= 1024 lg_randtopk_k32       cos=0.9994  needle=0.000  pr=0.1770  (102s)\n"}
+,{"stream_name":"stdout","time":8969.653934659,"data":"  [20/32] falcon-h1-3b       ctx= 1024 lg_adaptive_m09       cos=0.9995  needle=0.111  pr=0.1318  (100s)\n"}
+,{"stream_name":"stdout","time":9071.879278107,"data":"  [21/32] falcon-h1-3b       ctx= 1024 lg_entropy            cos=0.9996  needle=0.111  pr=0.1322  (102s)\n"}
+,{"stream_name":"stdout","time":9175.774332644,"data":"  [22/32] falcon-h1-3b       ctx= 1024 lg_perhead            cos=1.0000  needle=0.667  pr=0.2860  (104s)\n"}
+,{"stream_name":"stdout","time":9276.155003045,"data":"  [23/32] falcon-h1-3b       ctx= 1024 streamingllm_bm       cos=0.9994  needle=0.000  pr=0.1680  (100s)\n"}
+,{"stream_name":"stdout","time":9356.071241017,"data":"  [24/32] falcon-h1-3b       ctx= 1024 uniform_random_m      cos=0.9978  needle=0.000  pr=0.0632  (80s)\n"}
+,{"stream_name":"stdout","time":9492.813365126,"data":"  [25/32] falcon-h1-3b       ctx= 2048 dense                 cos=1.0000  needle=0.667  pr=1.0000  (137s)\n"}
+,{"stream_name":"stdout","time":9670.8266757,"data":"  [26/32] falcon-h1-3b       ctx= 2048 lg_topk_k32           cos=0.9999  needle=0.667  pr=0.0840  (178s)\n"}
+,{"stream_name":"stdout","time":9850.356332005,"data":"  [27/32] falcon-h1-3b       ctx= 2048 lg_randtopk_k32       cos=0.9993  needle=0.000  pr=0.0928  (180s)\n"}
+,{"stream_name":"stdout","time":10029.53659764,"data":"  [28/32] falcon-h1-3b       ctx= 2048 lg_adaptive_m09       cos=0.9995  needle=0.000  pr=0.0673  (179s)\n"}
+,{"stream_name":"stdout","time":10210.044868394,"data":"  [29/32] falcon-h1-3b       ctx= 2048 lg_entropy            cos=0.9996  needle=0.111  pr=0.0674  (181s)\n"}
+,{"stream_name":"stdout","time":10395.996008384,"data":"  [30/32] falcon-h1-3b       ctx= 2048 lg_perhead            cos=1.0000  needle=0.667  pr=0.1599  (186s)\n"}
+,{"stream_name":"stdout","time":10577.571234647,"data":"  [31/32] falcon-h1-3b       ctx= 2048 streamingllm_bm       cos=0.9993  needle=0.000  pr=0.0859  (182s)\n"}
+,{"stream_name":"stdout","time":10748.624637404,"data":"  [32/32] falcon-h1-3b       ctx= 2048 uniform_random_m      cos=0.9972  needle=0.000  pr=0.0319  (171s)\n"}
+,{"stream_name":"stdout","time":10748.68889463,"data":"\n"}
+,{"stream_name":"stdout","time":10748.688943046,"data":"=== DONE: 32/32 combos completed ===\n"}
+,{"stream_name":"stdout","time":10748.688949684,"data":"Results -\u003e /kaggle/working/mlattention/scripts/../results/leaderboard.jsonl\n"}
+,{"stream_name":"stdout","time":10750.201691156,"data":"\u003e\u003e\u003e B. Falcon-H1 1.5B y 3B termino en 3618s\n"}
+,{"stream_name":"stdout","time":10750.201734316,"data":"$ nvidia-smi --query-gpu=index,name,memory.used,memory.total --format=csv,noheader\n"}
+,{"stream_name":"stdout","time":10750.232739164,"data":"0, Tesla T4, 0 MiB, 15360 MiB\n"}
+,{"stream_name":"stdout","time":10750.23276872,"data":"1, Tesla T4, 0 MiB, 15360 MiB\n"}
+,{"stream_name":"stdout","time":10750.238034657,"data":"RAM B. Falcon-H1 1.5B y 3B: disponible 31.7 GB de 32.9 GB\n"}
+,{"stream_name":"stdout","time":10750.23805987,"data":"\n"}
+,{"stream_name":"stdout","time":10750.238065946,"data":"==========================================================================\n"}
+,{"stream_name":"stdout","time":10750.238072268,"data":"BLOQUE C. FlexAttention seq=8192 bloque=128 alineado\n"}
+,{"stream_name":"stdout","time":10750.238078122,"data":"==========================================================================\n"}
+,{"stream_name":"stdout","time":10750.238174966,"data":"disco /kaggle/working: 1.3 GB libres de 21.0 GB\n"}
+,{"stream_name":"stderr","time":10777.842794339,"data":"/usr/local/lib/python3.12/dist-packages/torch/nn/attention/flex_attention.py:1624: UserWarning: flex_attention called without torch.compile() - this will use an unfused implementation that materializes the full scores matrix instead of generating a fused kernel.\n"}
+,{"stream_name":"stderr","time":10777.842836964,"data":"\n"}
+,{"stream_name":"stderr","time":10777.842842862,"data":"SOLUTION: Use torch.compile(flex_attention)(...)\n"}
+,{"stream_name":"stderr","time":10777.84284768,"data":"\n"}
+,{"stream_name":"stderr","time":10777.84285186,"data":"If you want to debug your score_mod/mask_mod, you can set:\n"}
+,{"stream_name":"stderr","time":10777.842856549,"data":"torch.nn.attention.flex_attention._FLEX_ATTENTION_DISABLE_COMPILE_DEBUG = True\n"}
+,{"stream_name":"stderr","time":10777.842883817,"data":"\n"}
+,{"stream_name":"stderr","time":10777.842887981,"data":"This will allow you to use print statements or breakpoints. Note: This doesn't work with the backwards pass and may produce incorrect results.\n"}
+,{"stream_name":"stderr","time":10777.84289168,"data":"  _warn_once(\n"}
+,{"stream_name":"stderr","time":10792.532082567,"data":"/usr/local/lib/python3.12/dist-packages/torch/_inductor/compile_fx.py:2900: UserWarning: Tesla T4 does not support bfloat16 compilation natively, skipping\n"}
+,{"stream_name":"stderr","time":10792.532113971,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":10827.307893619,"data":"{\"seq\": 8192, \"head_dim\": 128, \"block_size\": 128, \"pattern\": \"block_aligned\", \"iters\": 50, \"gpu\": \"Tesla T4\", \"torch\": \"2.10.0+cu128\", \"dense_ms\": 400.7213, \"create_block_mask_s\": 1.25, \"active_block_frac\": 0.09087, \"full_block_frac\": 0.0, \"flex_eager_ms\": 578.8948, \"flex_compiled_ms\": 579.93, \"compile_and_warmup_s\": 40.46, \"speedup_flex_eager_ms\": 0.6922, \"speedup_flex_compiled_ms\": 0.691}\n"}
+,{"stream_name":"stdout","time":10829.06096726,"data":"\u003e\u003e\u003e C. FlexAttention seq=8192 bloque=128 alineado termino en 79s\n"}
+,{"stream_name":"stdout","time":10829.0610009,"data":"$ nvidia-smi --query-gpu=index,name,memory.used,memory.total --format=csv,noheader\n"}
+,{"stream_name":"stdout","time":10829.09081674,"data":"0, Tesla T4, 0 MiB, 15360 MiB\n"}
+,{"stream_name":"stdout","time":10829.090848073,"data":"1, Tesla T4, 0 MiB, 15360 MiB\n"}
+,{"stream_name":"stdout","time":10829.09670341,"data":"RAM C. FlexAttention seq=8192 bloque=128 alineado: disponible 31.8 GB de 32.9 GB\n"}
+,{"stream_name":"stdout","time":10829.096725026,"data":"\n"}
+,{"stream_name":"stdout","time":10829.096731614,"data":"==========================================================================\n"}
+,{"stream_name":"stdout","time":10829.096752626,"data":"BLOQUE C. FlexAttention seq=16384 bloque=128 alineado\n"}
+,{"stream_name":"stdout","time":10829.096757982,"data":"==========================================================================\n"}
+,{"stream_name":"stdout","time":10829.096763256,"data":"disco /kaggle/working: 1.3 GB libres de 21.0 GB\n"}
+,{"stream_name":"stderr","time":10831.843388484,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":10831.843420254,"data":"  File \"/kaggle/working/mlattention/scripts/verify_flex_isolated.py\", line 117, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":10831.843739606,"data":"    main()\n"}
+,{"stream_name":"stderr","time":10831.843752818,"data":"  File \"/kaggle/working/mlattention/scripts/verify_flex_isolated.py\", line 73, in main\n"}
+,{"stream_name":"stderr","time":10831.843940004,"data":"    dense_ms = bench(lambda: F.scaled_dot_product_attention(q, k, v, is_causal=True),\n"}
+,{"stream_name":"stderr","time":10831.844149346,"data":"               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":10831.84416005,"data":"  File \"/kaggle/working/mlattention/scripts/verify_flex_isolated.py\", line 31, in bench\n"}
+,{"stream_name":"stderr","time":10831.844323346,"data":"    fn()\n"}
+,{"stream_name":"stderr","time":10831.844334162,"data":"  File \"/kaggle/working/mlattention/scripts/verify_flex_isolated.py\", line 73, in \u003clambda\u003e\n"}
+,{"stream_name":"stderr","time":10831.844482691,"data":"    dense_ms = bench(lambda: F.scaled_dot_product_attention(q, k, v, is_causal=True),\n"}
+,{"stream_name":"stderr","time":10831.844699995,"data":"                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n"}
+,{"stream_name":"stderr","time":10831.84480271,"data":"torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 16.00 GiB. GPU 0 has a total capacity of 14.56 GiB of which 12.61 GiB is free. Including non-PyTorch memory, this process has 1.95 GiB memory in use. Of the allocated memory 1.81 GiB is allocated by PyTorch, and 24.00 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)\n"}
+,{"stream_name":"stdout","time":10832.42168877,"data":"\u003e\u003e\u003e C. FlexAttention seq=16384 bloque=128 alineado termino en 3s\n"}
+,{"stream_name":"stdout","time":10832.421723627,"data":"$ nvidia-smi --query-gpu=index,name,memory.used,memory.total --format=csv,noheader\n"}
+,{"stream_name":"stdout","time":10832.450881481,"data":"0, Tesla T4, 0 MiB, 15360 MiB\n"}
+,{"stream_name":"stdout","time":10832.450909395,"data":"1, Tesla T4, 0 MiB, 15360 MiB\n"}
+,{"stream_name":"stdout","time":10832.455696945,"data":"RAM C. FlexAttention seq=16384 bloque=128 alineado: disponible 31.8 GB de 32.9 GB\n"}
+,{"stream_name":"stdout","time":10832.455716047,"data":"\n"}
+,{"stream_name":"stdout","time":10832.455720016,"data":"==========================================================================\n"}
+,{"stream_name":"stdout","time":10832.455724453,"data":"ARTEFACTOS\n"}
+,{"stream_name":"stdout","time":10832.455745095,"data":"==========================================================================\n"}
+,{"stream_name":"stdout","time":10832.456469528,"data":"  /kaggle/working/mlattention/results/leaderboard.jsonl  (56 filas)\n"}
+,{"stream_name":"stdout","time":10832.456967333,"data":"  /kaggle/working/mlattention/results/leaderboard_checkpoint.jsonl  (56 filas)\n"}
+,{"stream_name":"stdout","time":10832.457210199,"data":"\n"}
+,{"stream_name":"stdout","time":10832.457220996,"data":"=== resumen de lo recogido ===\n"}
+,{"stream_name":"stdout","time":10832.457343125,"data":"--- leaderboard.jsonl\n"}
+,{"stream_name":"stdout","time":10832.457446627,"data":"    {'model': 'qwen3.5-4b-base', 'method': 'dense', 'context': 1024, 'cos_mean': 0.99998, 'needle_recall': 0.6667}\n"}
+,{"stream_name":"stdout","time":10832.457503292,"data":"    {'model': 'qwen3.5-4b-base', 'method': 'lg_topk_k32', 'context': 1024, 'cos_mean': 0.990624, 'needle_recall': 0.6667}\n"}
+,{"stream_name":"stdout","time":10832.457522587,"data":"    {'model': 'qwen3.5-4b-base', 'method': 'lg_randtopk_k32', 'context': 1024, 'cos_mean': 0.96933, 'needle_recall': 0.0}\n"}
+,{"stream_name":"stdout","time":10832.457579732,"data":"    {'model': 'qwen3.5-4b-base', 'method': 'lg_adaptive_m09', 'context': 1024, 'cos_mean': 0.974196, 'needle_recall': 0.3333}\n"}
+,{"stream_name":"stdout","time":10832.457674782,"data":"    {'model': 'qwen3.5-4b-base', 'method': 'lg_entropy', 'context': 1024, 'cos_mean': 0.97776, 'needle_recall': 0.5556}\n"}
+,{"stream_name":"stdout","time":10832.45768228,"data":"    {'model': 'qwen3.5-4b-base', 'method': 'lg_perhead', 'context': 1024, 'cos_mean': 0.999104, 'needle_recall': 0.6667}\n"}
+,{"stream_name":"stdout","time":10832.457688383,"data":"    {'model': 'qwen3.5-4b-base', 'method': 'streamingllm_bm', 'context': 1024, 'cos_mean': 0.96743, 'needle_recall': 0.0}\n"}
+,{"stream_name":"stdout","time":10832.457760713,"data":"    {'model': 'qwen3.5-4b-base', 'method': 'uniform_random_m', 'context': 1024, 'cos_mean': 0.822146, 'needle_recall': 0.0}\n"}
+,{"stream_name":"stdout","time":10832.457785469,"data":"    {'model': 'qwen3.5-4b-base', 'method': 'dense', 'context': 2048, 'cos_mean': 0.99998, 'needle_recall': 1.0}\n"}
+,{"stream_name":"stdout","time":10832.457817567,"data":"    {'model': 'qwen3.5-4b-base', 'method': 'lg_topk_k32', 'context': 2048, 'cos_mean': 0.98667, 'needle_recall': 1.0}\n"}
+,{"stream_name":"stdout","time":10832.45787991,"data":"    {'model': 'qwen3.5-4b-base', 'method': 'lg_randtopk_k32', 'context': 2048, 'cos_mean': 0.96205, 'needle_recall': 0.0}\n"}
+,{"stream_name":"stdout","time":10832.457885876,"data":"    {'model': 'qwen3.5-4b-base', 'method': 'lg_adaptive_m09', 'context': 2048, 'cos_mean': 0.967606, 'needle_recall': 0.4444}\n"}
+,{"stream_name":"stdout","time":10832.457961693,"data":"    {'model': 'qwen3.5-4b-base', 'method': 'lg_entropy', 'context': 2048, 'cos_mean': 0.97121, 'needle_recall': 0.6667}\n"}
+,{"stream_name":"stdout","time":10832.457970523,"data":"    {'model': 'qwen3.5-4b-base', 'method': 'lg_perhead', 'context': 2048, 'cos_mean': 0.998414, 'needle_recall': 1.0}\n"}
+,{"stream_name":"stdout","time":10832.457995773,"data":"    {'model': 'qwen3.5-4b-base', 'method': 'streamingllm_bm', 'context': 2048, 'cos_mean': 0.960466, 'needle_recall': 0.0}\n"}
+,{"stream_name":"stdout","time":10832.45803218,"data":"    {'model': 'qwen3.5-4b-base', 'method': 'uniform_random_m', 'context': 2048, 'cos_mean': 0.749712, 'needle_recall': 0.0}\n"}
+,{"stream_name":"stdout","time":10832.458094396,"data":"    {'model': 'qwen3.5-4b-base', 'method': 'dense', 'context': 4096, 'cos_mean': 0.99998, 'needle_recall': 1.0}\n"}
+,{"stream_name":"stdout","time":10832.458100569,"data":"    {'model': 'qwen3.5-4b-base', 'method': 'lg_topk_k32', 'context': 4096, 'cos_mean': 0.980964, 'needle_recall': 1.0}\n"}
+,{"stream_name":"stdout","time":10832.458143554,"data":"    {'model': 'qwen3.5-4b-base', 'method': 'lg_randtopk_k32', 'context': 4096, 'cos_mean': 0.953534, 'needle_recall': 0.0}\n"}
+,{"stream_name":"stdout","time":10832.458162687,"data":"    {'model': 'qwen3.5-4b-base', 'method': 'lg_adaptive_m09', 'context': 4096, 'cos_mean': 0.960754, 'needle_recall': 0.3333}\n"}
+,{"stream_name":"stdout","time":10832.458230879,"data":"    {'model': 'qwen3.5-4b-base', 'method': 'lg_entropy', 'context': 4096, 'cos_mean': 0.963958, 'needle_recall': 0.7778}\n"}
+,{"stream_name":"stdout","time":10832.458237157,"data":"    {'model': 'qwen3.5-4b-base', 'method': 'lg_perhead', 'context': 4096, 'cos_mean': 0.996864, 'needle_recall': 1.0}\n"}
+,{"stream_name":"stdout","time":10832.458322223,"data":"    {'model': 'qwen3.5-4b-base', 'method': 'streamingllm_bm', 'context': 4096, 'cos_mean': 0.952538, 'needle_recall': 0.0}\n"}
+,{"stream_name":"stdout","time":10832.458329481,"data":"    {'model': 'qwen3.5-4b-base', 'method': 'uniform_random_m', 'context': 4096, 'cos_mean': 0.693296, 'needle_recall': 0.0}\n"}
+,{"stream_name":"stdout","time":10832.458358868,"data":"    {'model': 'falcon-h1-1.5b', 'method': 'dense', 'context': 1024, 'cos_mean': 1.00001, 'needle_recall': 0.6667}\n"}
+,{"stream_name":"stdout","time":10832.458430906,"data":"    {'model': 'falcon-h1-1.5b', 'method': 'lg_topk_k32', 'context': 1024, 'cos_mean': 0.99994, 'needle_recall': 0.6667}\n"}
+,{"stream_name":"stdout","time":10832.458437694,"data":"    {'model': 'falcon-h1-1.5b', 'method': 'lg_randtopk_k32', 'context': 1024, 'cos_mean': 0.999492, 'needle_recall': 0.0}\n"}
+,{"stream_name":"stdout","time":10832.45848428,"data":"    {'model': 'falcon-h1-1.5b', 'method': 'lg_adaptive_m09', 'context': 1024, 'cos_mean': 0.99954, 'needle_recall': 0.4444}\n"}
+,{"stream_name":"stdout","time":10832.458557698,"data":"    {'model': 'falcon-h1-1.5b', 'method': 'lg_entropy', 'context': 1024, 'cos_mean': 0.999578, 'needle_recall': 0.4444}\n"}
+,{"stream_name":"stdout","time":10832.458565483,"data":"    {'model': 'falcon-h1-1.5b', 'method': 'lg_perhead', 'context': 1024, 'cos_mean': 0.99999, 'needle_recall': 0.6667}\n"}
+,{"stream_name":"stdout","time":10832.45857738,"data":"    {'model': 'falcon-h1-1.5b', 'method': 'streamingllm_bm', 'context': 1024, 'cos_mean': 0.999462, 'needle_recall': 0.0}\n"}
+,{"stream_name":"stdout","time":10832.458631673,"data":"    {'model': 'falcon-h1-1.5b', 'method': 'uniform_random_m', 'context': 1024, 'cos_mean': 0.998238, 'needle_recall': 0.0}\n"}
+,{"stream_name":"stdout","time":10832.458656068,"data":"    {'model': 'falcon-h1-1.5b', 'method': 'dense', 'context': 2048, 'cos_mean': 1.00001, 'needle_recall': 0.6667}\n"}
+,{"stream_name":"stdout","time":10832.458703827,"data":"    {'model': 'falcon-h1-1.5b', 'method': 'lg_topk_k32', 'context': 2048, 'cos_mean': 0.999908, 'needle_recall': 0.6667}\n"}
+,{"stream_name":"stdout","time":10832.458812248,"data":"    {'model': 'falcon-h1-1.5b', 'method': 'lg_randtopk_k32', 'context': 2048, 'cos_mean': 0.999418, 'needle_recall': 0.0}\n"}
+,{"stream_name":"stdout","time":10832.458822865,"data":"    {'model': 'falcon-h1-1.5b', 'method': 'lg_adaptive_m09', 'context': 2048, 'cos_mean': 0.999486, 'needle_recall': 0.6667}\n"}
+,{"stream_name":"stdout","time":10832.458836004,"data":"    {'model': 'falcon-h1-1.5b', 'method': 'lg_entropy', 'context': 2048, 'cos_mean': 0.999524, 'needle_recall': 0.5556}\n"}
+,{"stream_name":"stdout","time":10832.458850352,"data":"    {'model': 'falcon-h1-1.5b', 'method': 'lg_perhead', 'context': 2048, 'cos_mean': 0.99998, 'needle_recall': 0.6667}\n"}
+,{"stream_name":"stdout","time":10832.458908509,"data":"    {'model': 'falcon-h1-1.5b', 'method': 'streamingllm_bm', 'context': 2048, 'cos_mean': 0.9994, 'needle_recall': 0.0}\n"}
+,{"stream_name":"stdout","time":10832.458955049,"data":"    {'model': 'falcon-h1-1.5b', 'method': 'uniform_random_m', 'context': 2048, 'cos_mean': 0.99775, 'needle_recall': 0.0}\n"}
+,{"stream_name":"stdout","time":10832.458974186,"data":"    {'model': 'falcon-h1-3b', 'method': 'dense', 'context': 1024, 'cos_mean': 1.00001, 'needle_recall': 0.6667}\n"}
+,{"stream_name":"stdout","time":10832.459042095,"data":"    {'model': 'falcon-h1-3b', 'method': 'lg_topk_k32', 'context': 1024, 'cos_mean': 0.99992, 'needle_recall': 0.6667}\n"}
+,{"stream_name":"stdout","time":10832.459061973,"data":"    {'model': 'falcon-h1-3b', 'method': 'lg_randtopk_k32', 'context': 1024, 'cos_mean': 0.999402, 'needle_recall': 0.0}\n"}
+,{"stream_name":"stdout","time":10832.459103032,"data":"    {'model': 'falcon-h1-3b', 'method': 'lg_adaptive_m09', 'context': 1024, 'cos_mean': 0.999522, 'needle_recall': 0.1111}\n"}
+,{"stream_name":"stdout","time":10832.45916785,"data":"    {'model': 'falcon-h1-3b', 'method': 'lg_entropy', 'context': 1024, 'cos_mean': 0.99961, 'needle_recall': 0.1111}\n"}
+,{"stream_name":"stdout","time":10832.459174463,"data":"    {'model': 'falcon-h1-3b', 'method': 'lg_perhead', 'context': 1024, 'cos_mean': 0.99999, 'needle_recall': 0.6667}\n"}
+,{"stream_name":"stdout","time":10832.459210836,"data":"    {'model': 'falcon-h1-3b', 'method': 'streamingllm_bm', 'context': 1024, 'cos_mean': 0.999366, 'needle_recall': 0.0}\n"}
+,{"stream_name":"stdout","time":10832.459224315,"data":"    {'model': 'falcon-h1-3b', 'method': 'uniform_random_m', 'context': 1024, 'cos_mean': 0.9978, 'needle_recall': 0.0}\n"}
+,{"stream_name":"stdout","time":10832.45927537,"data":"    {'model': 'falcon-h1-3b', 'method': 'dense', 'context': 2048, 'cos_mean': 1.00001, 'needle_recall': 0.6667}\n"}
+,{"stream_name":"stdout","time":10832.459302465,"data":"    {'model': 'falcon-h1-3b', 'method': 'lg_topk_k32', 'context': 2048, 'cos_mean': 0.999894, 'needle_recall': 0.6667}\n"}
+,{"stream_name":"stdout","time":10832.459354904,"data":"    {'model': 'falcon-h1-3b', 'method': 'lg_randtopk_k32', 'context': 2048, 'cos_mean': 0.999326, 'needle_recall': 0.0}\n"}
+,{"stream_name":"stdout","time":10832.45940823,"data":"    {'model': 'falcon-h1-3b', 'method': 'lg_adaptive_m09', 'context': 2048, 'cos_mean': 0.99949, 'needle_recall': 0.0}\n"}
+,{"stream_name":"stdout","time":10832.45941807,"data":"    {'model': 'falcon-h1-3b', 'method': 'lg_entropy', 'context': 2048, 'cos_mean': 0.999568, 'needle_recall': 0.1111}\n"}
+,{"stream_name":"stdout","time":10832.459466225,"data":"    {'model': 'falcon-h1-3b', 'method': 'lg_perhead', 'context': 2048, 'cos_mean': 0.99998, 'needle_recall': 0.6667}\n"}
+,{"stream_name":"stdout","time":10832.459480556,"data":"    {'model': 'falcon-h1-3b', 'method': 'streamingllm_bm', 'context': 2048, 'cos_mean': 0.999302, 'needle_recall': 0.0}\n"}
+,{"stream_name":"stdout","time":10832.459542161,"data":"    {'model': 'falcon-h1-3b', 'method': 'uniform_random_m', 'context': 2048, 'cos_mean': 0.99725, 'needle_recall': 0.0}\n"}
+,{"stream_name":"stdout","time":10832.459601894,"data":"--- leaderboard_checkpoint.jsonl\n"}
+,{"stream_name":"stdout","time":10832.459685267,"data":"    {'model': 'qwen3.5-4b-base', 'method': 'dense', 'context': 1024}\n"}
+,{"stream_name":"stdout","time":10832.459690921,"data":"    {'model': 'qwen3.5-4b-base', 'method': 'lg_topk_k32', 'context': 1024}\n"}
+,{"stream_name":"stdout","time":10832.459733085,"data":"    {'model': 'qwen3.5-4b-base', 'method': 'lg_randtopk_k32', 'context': 1024}\n"}
+,{"stream_name":"stdout","time":10832.459754482,"data":"    {'model': 'qwen3.5-4b-base', 'method': 'lg_adaptive_m09', 'context': 1024}\n"}
+,{"stream_name":"stdout","time":10832.459803593,"data":"    {'model': 'qwen3.5-4b-base', 'method': 'lg_entropy', 'context': 1024}\n"}
+,{"stream_name":"stdout","time":10832.459852163,"data":"    {'model': 'qwen3.5-4b-base', 'method': 'lg_perhead', 'context': 1024}\n"}
+,{"stream_name":"stdout","time":10832.459857907,"data":"    {'model': 'qwen3.5-4b-base', 'method': 'streamingllm_bm', 'context': 1024}\n"}
+,{"stream_name":"stdout","time":10832.459895493,"data":"    {'model': 'qwen3.5-4b-base', 'method': 'uniform_random_m', 'context': 1024}\n"}
+,{"stream_name":"stdout","time":10832.459900118,"data":"    {'model': 'qwen3.5-4b-base', 'method': 'dense', 'context': 2048}\n"}
+,{"stream_name":"stdout","time":10832.459932454,"data":"    {'model': 'qwen3.5-4b-base', 'method': 'lg_topk_k32', 'context': 2048}\n"}
+,{"stream_name":"stdout","time":10832.459947052,"data":"    {'model': 'qwen3.5-4b-base', 'method': 'lg_randtopk_k32', 'context': 2048}\n"}
+,{"stream_name":"stdout","time":10832.459960248,"data":"    {'model': 'qwen3.5-4b-base', 'method': 'lg_adaptive_m09', 'context': 2048}\n"}
+,{"stream_name":"stdout","time":10832.460014444,"data":"    {'model': 'qwen3.5-4b-base', 'method': 'lg_entropy', 'context': 2048}\n"}
+,{"stream_name":"stdout","time":10832.460020132,"data":"    {'model': 'qwen3.5-4b-base', 'method': 'lg_perhead', 'context': 2048}\n"}
+,{"stream_name":"stdout","time":10832.46004338,"data":"    {'model': 'qwen3.5-4b-base', 'method': 'streamingllm_bm', 'context': 2048}\n"}
+,{"stream_name":"stdout","time":10832.46008313,"data":"    {'model': 'qwen3.5-4b-base', 'method': 'uniform_random_m', 'context': 2048}\n"}
+,{"stream_name":"stdout","time":10832.460102261,"data":"    {'model': 'qwen3.5-4b-base', 'method': 'dense', 'context': 4096}\n"}
+,{"stream_name":"stdout","time":10832.460143138,"data":"    {'model': 'qwen3.5-4b-base', 'method': 'lg_topk_k32', 'context': 4096}\n"}
+,{"stream_name":"stdout","time":10832.46014883,"data":"    {'model': 'qwen3.5-4b-base', 'method': 'lg_randtopk_k32', 'context': 4096}\n"}
+,{"stream_name":"stdout","time":10832.460193798,"data":"    {'model': 'qwen3.5-4b-base', 'method': 'lg_adaptive_m09', 'context': 4096}\n"}
+,{"stream_name":"stdout","time":10832.460200991,"data":"    {'model': 'qwen3.5-4b-base', 'method': 'lg_entropy', 'context': 4096}\n"}
+,{"stream_name":"stdout","time":10832.460229996,"data":"    {'model': 'qwen3.5-4b-base', 'method': 'lg_perhead', 'context': 4096}\n"}
+,{"stream_name":"stdout","time":10832.460257773,"data":"    {'model': 'qwen3.5-4b-base', 'method': 'streamingllm_bm', 'context': 4096}\n"}
+,{"stream_name":"stdout","time":10832.460296177,"data":"    {'model': 'qwen3.5-4b-base', 'method': 'uniform_random_m', 'context': 4096}\n"}
+,{"stream_name":"stdout","time":10832.46034623,"data":"    {'model': 'falcon-h1-1.5b', 'method': 'dense', 'context': 1024}\n"}
+,{"stream_name":"stdout","time":10832.460353669,"data":"    {'model': 'falcon-h1-1.5b', 'method': 'lg_topk_k32', 'context': 1024}\n"}
+,{"stream_name":"stdout","time":10832.460358404,"data":"    {'model': 'falcon-h1-1.5b', 'method': 'lg_randtopk_k32', 'context': 1024}\n"}
+,{"stream_name":"stdout","time":10832.460394366,"data":"    {'model': 'falcon-h1-1.5b', 'method': 'lg_adaptive_m09', 'context': 1024}\n"}
+,{"stream_name":"stdout","time":10832.460400286,"data":"    {'model': 'falcon-h1-1.5b', 'method': 'lg_entropy', 'context': 1024}\n"}
+,{"stream_name":"stdout","time":10832.460448805,"data":"    {'model': 'falcon-h1-1.5b', 'method': 'lg_perhead', 'context': 1024}\n"}
+,{"stream_name":"stdout","time":10832.460455345,"data":"    {'model': 'falcon-h1-1.5b', 'method': 'streamingllm_bm', 'context': 1024}\n"}
+,{"stream_name":"stdout","time":10832.460459869,"data":"    {'model': 'falcon-h1-1.5b', 'method': 'uniform_random_m', 'context': 1024}\n"}
+,{"stream_name":"stdout","time":10832.460477342,"data":"    {'model': 'falcon-h1-1.5b', 'method': 'dense', 'context': 2048}\n"}
+,{"stream_name":"stdout","time":10832.460482052,"data":"    {'model': 'falcon-h1-1.5b', 'method': 'lg_topk_k32', 'context': 2048}\n"}
+,{"stream_name":"stdout","time":10832.460542449,"data":"    {'model': 'falcon-h1-1.5b', 'method': 'lg_randtopk_k32', 'context': 2048}\n"}
+,{"stream_name":"stdout","time":10832.460550068,"data":"    {'model': 'falcon-h1-1.5b', 'method': 'lg_adaptive_m09', 'context': 2048}\n"}
+,{"stream_name":"stdout","time":10832.460557551,"data":"    {'model': 'falcon-h1-1.5b', 'method': 'lg_entropy', 'context': 2048}\n"}
+,{"stream_name":"stdout","time":10832.46058663,"data":"    {'model': 'falcon-h1-1.5b', 'method': 'lg_perhead', 'context': 2048}\n"}
+,{"stream_name":"stdout","time":10832.460602025,"data":"    {'model': 'falcon-h1-1.5b', 'method': 'streamingllm_bm', 'context': 2048}\n"}
+,{"stream_name":"stdout","time":10832.460629722,"data":"    {'model': 'falcon-h1-1.5b', 'method': 'uniform_random_m', 'context': 2048}\n"}
+,{"stream_name":"stdout","time":10832.460662382,"data":"    {'model': 'falcon-h1-3b', 'method': 'dense', 'context': 1024}\n"}
+,{"stream_name":"stdout","time":10832.460693993,"data":"    {'model': 'falcon-h1-3b', 'method': 'lg_topk_k32', 'context': 1024}\n"}
+,{"stream_name":"stdout","time":10832.460700289,"data":"    {'model': 'falcon-h1-3b', 'method': 'lg_randtopk_k32', 'context': 1024}\n"}
+,{"stream_name":"stdout","time":10832.460744739,"data":"    {'model': 'falcon-h1-3b', 'method': 'lg_adaptive_m09', 'context': 1024}\n"}
+,{"stream_name":"stdout","time":10832.460775057,"data":"    {'model': 'falcon-h1-3b', 'method': 'lg_entropy', 'context': 1024}\n"}
+,{"stream_name":"stdout","time":10832.4608414,"data":"    {'model': 'falcon-h1-3b', 'method': 'lg_perhead', 'context': 1024}\n"}
+,{"stream_name":"stdout","time":10832.460847709,"data":"    {'model': 'falcon-h1-3b', 'method': 'streamingllm_bm', 'context': 1024}\n"}
+,{"stream_name":"stdout","time":10832.460852253,"data":"    {'model': 'falcon-h1-3b', 'method': 'uniform_random_m', 'context': 1024}\n"}
+,{"stream_name":"stdout","time":10832.460882552,"data":"    {'model': 'falcon-h1-3b', 'method': 'dense', 'context': 2048}\n"}
+,{"stream_name":"stdout","time":10832.460889589,"data":"    {'model': 'falcon-h1-3b', 'method': 'lg_topk_k32', 'context': 2048}\n"}
+,{"stream_name":"stdout","time":10832.460906896,"data":"    {'model': 'falcon-h1-3b', 'method': 'lg_randtopk_k32', 'context': 2048}\n"}
+,{"stream_name":"stdout","time":10832.460979238,"data":"    {'model': 'falcon-h1-3b', 'method': 'lg_adaptive_m09', 'context': 2048}\n"}
+,{"stream_name":"stdout","time":10832.460993093,"data":"    {'model': 'falcon-h1-3b', 'method': 'lg_entropy', 'context': 2048}\n"}
+,{"stream_name":"stdout","time":10832.460997709,"data":"    {'model': 'falcon-h1-3b', 'method': 'lg_perhead', 'context': 2048}\n"}
+,{"stream_name":"stdout","time":10832.461013696,"data":"    {'model': 'falcon-h1-3b', 'method': 'streamingllm_bm', 'context': 2048}\n"}
+,{"stream_name":"stdout","time":10832.461020998,"data":"    {'model': 'falcon-h1-3b', 'method': 'uniform_random_m', 'context': 2048}\n"}
+,{"stream_name":"stdout","time":10832.466700853,"data":"\n"}
+,{"stream_name":"stdout","time":10832.466720161,"data":"plataforma final: Linux-6.18.48+-x86_64-with-glibc2.35 | python 3.12.13\n"}
+,{"stream_name":"stdout","time":10832.466725839,"data":"TERMINADO\n"}
+,{"stream_name":"stderr","time":10834.592426543,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":10834.59254594,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":10834.876816008,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":10834.876837876,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":10835.560420126,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":10836.860728539,"data":"[NbConvertApp] Writing 312452 bytes to __results__.html\n"}
+]
