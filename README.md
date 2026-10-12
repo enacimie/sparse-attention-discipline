@@ -116,6 +116,13 @@ including the Wilson intervals, the paired effect sizes and the exact McNemar te
   of its driver, and the first left `recall: null` in 54 of its 108 rows. Filter on
   `recall is not null` before aggregating: the complete 54 rows are the `n=18` per method that
   Table 14 reports. `MANIFEST.md` gives the detail.
+- **One deposited file contains duplicate rows.** `results/ruler_battery.jsonl` holds 59 rows per
+  method for the 0.8B arm where only 53 are distinct on `(method, task, seed)`; the 4B arm is clean.
+  Deduplicate before aggregating. Every number published from this file was computed on the
+  deduplicated set and reproduces exactly, so no published figure is affected, but a naive
+  aggregation of the file as deposited gives different denominators. The revised manuscript draws
+  Tables 15 to 17 from the balanced n=40 re-run in `results/REV2_battery_qwen3.5-*.jsonl` instead.
+  `MANIFEST.md` gives the detail and the exact counts both ways.
 
 ## Licensing
 

@@ -99,6 +99,21 @@ that the caption of Table 14 declares, and they are the only rows used for any p
 before aggregating.** The file is reproduced exactly as deposited in version 1 of this record and is
 not corrected here, so that its checksum remains comparable across versions.
 
+`results/ruler_battery.jsonl` contains 490 rows, but the 0.8B arm has 59 rows per method where only
+53 are distinct on `(method, task, seed)`: seeds 42, 43 and 44 appear twice for the `fwe` and `cwe`
+tasks, because a ten-seed run of those two tasks was appended to an earlier three-seed run without
+removing it. The 4B arm (39 rows per method) carries no duplicates. **Deduplicate on
+`(method, task, seed)` before aggregating.** Every aggregate published from this file was computed on
+the deduplicated set and reproduces exactly: dense 41/53, `lg_topk_k32` 36/53, `lg_randtopk_k32`
+12/53, `streamingllm_bm` 13/53 and `uniform_random_m` 2/53 at 0.8B, and dense 33/39, `lg_topk_k32`
+32/39, `lg_randtopk_k32` 4/39, `streamingllm_bm` 3/39 and `uniform_random_m` 1/39 at 4B. Aggregating
+the 0.8B arm without deduplicating gives 47/59, 39/59, 15/59, 17/59 and 2/59 in the same order, so
+the duplication is a trap for a reader rather than an error in any published number. No figure in the
+revised manuscript is drawn from this file: Tables 15 to 17 come from the balanced n=40 re-run in
+`results/REV2_battery_qwen3.5-*.jsonl`, which uses seeds 1000-1039, gives 65 cells per model at
+exactly n=40 and has zero duplicate keys. This file is reproduced exactly as deposited in version 1
+of this record and is not corrected here, so that its checksum remains comparable across versions.
+
 `scripts/utility_metrics.py` also contains a retrieval-per-pair branch that reads a `pair_ratio`
 field from `results/needle_sparse.jsonl`. That field is not present in the file, so the branch
 prints `RPP=inf`. It writes nothing: the RPP figures in the manuscript are computed directly as
