@@ -164,7 +164,7 @@ def fig_decomposition():
     ax.set_ylim(0, 1.08)
     ax.legend(fontsize=8, loc="lower right")
     ax.set_title("Decomposition: structure (local+sinks) dominates fidelity; "
-                 "content top-k adds +0.02-0.04", fontsize=10)
+                 "content top-k adds a small further gain", fontsize=10)
     fig.savefig(os.path.join(FIGS, "fig_decomposition.pdf"))
     plt.close(fig)
 
